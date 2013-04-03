@@ -1,0 +1,1777 @@
+{
+	"completed_in" : 0.231,
+	"max_id" : 317594977330937856,
+	"max_id_str" : "317594977330937856",
+	"next_page" : "?page=15&max_id=317594977330937856&q=%23DevoxxFR&rpp=100",
+	"previous_page" : "?page=13&max_id=317594977330937856&q=%23DevoxxFR&rpp=100",
+	"page" : 14,
+	"query" : "%23DevoxxFR",
+	"refresh_url" : "?since_id=317594977330937856&q=%23DevoxxFR",
+	"results" : [{
+			"created_at" : "Fri, 29 Mar 2013 11:11:57 +0000",
+			"from_user" : "NHelleringer",
+			"from_user_id" : 28522205,
+			"from_user_id_str" : "28522205",
+			"from_user_name" : "Nicolas Helleringer",
+			"geo" : null,
+			"id" : 317594977330937856,
+			"id_str" : "317594977330937856",
+			"iso_language_code" : "fr",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/119766449\/-a3v8MQ3MaDP4E3kbWytLYbOpCETqWUpIW0n-keMcPr8UfflCn8yXC5oF0RHqJNW_normal.jpg",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/119766449\/-a3v8MQ3MaDP4E3kbWytLYbOpCETqWUpIW0n-keMcPr8UfflCn8yXC5oF0RHqJNW_normal.jpg",
+			"source" : "&lt;a href=&quot;http:\/\/twitter.com\/download\/iphone&quot;&gt;Twitter for iPhone&lt;\/a&gt;",
+			"text" : "RT @ElleneSiber: Je referai mon quickie les bronzes font du dev Seine A aujourd'hui a 13h #devoxxfr"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 11:11:13 +0000",
+			"from_user" : "fanf42",
+			"from_user_id" : 132853743,
+			"from_user_id_str" : "132853743",
+			"from_user_name" : "Francois Armand",
+			"geo" : null,
+			"id" : 317594789719732224,
+			"id_str" : "317594789719732224",
+			"iso_language_code" : "en",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/1985184882\/GK7cfNCJ_normal",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/1985184882\/GK7cfNCJ_normal",
+			"source" : "&lt;a href=&quot;http:\/\/twitter.com\/download\/android&quot;&gt;Twitter for Android&lt;\/a&gt;",
+			"text" : "Heart breaking to see #java dev discovering compossibility arises from prop. of functional lang... But not accepting it completely #devoxxfr"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 11:10:57 +0000",
+			"from_user" : "duchessfr",
+			"from_user_id" : 115522337,
+			"from_user_id_str" : "115522337",
+			"from_user_name" : "DuchessFr",
+			"geo" : null,
+			"id" : 317594722950590464,
+			"id_str" : "317594722950590464",
+			"iso_language_code" : "fr",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/3046910797\/7c1f5754b49b737dc1c55217275756b5_normal.png",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/3046910797\/7c1f5754b49b737dc1c55217275756b5_normal.png",
+			"source" : "&lt;a href=&quot;http:\/\/twitter.com\/download\/android&quot;&gt;Twitter for Android&lt;\/a&gt;",
+			"text" : "Rdv a la pause d\u00e9jeuner en haut des marches pour gagner des t-shirts #DevoxxFr"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 11:09:56 +0000",
+			"from_user" : "fcamblor",
+			"from_user_id" : 14859372,
+			"from_user_id_str" : "14859372",
+			"from_user_name" : "Fr\u00e9d\u00e9ric Camblor",
+			"geo" : null,
+			"id" : 317594468108873728,
+			"id_str" : "317594468108873728",
+			"iso_language_code" : "fr",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/774272530\/Reunion18022010PortailsPortletsJava_normal.jpg",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/774272530\/Reunion18022010PortailsPortletsJava_normal.jpg",
+			"source" : "&lt;a href=&quot;http:\/\/twitter.com\/download\/android&quot;&gt;Twitter for Android&lt;\/a&gt;",
+			"text" : "Sympa \u00e9galement la possibilit\u00e9 d'uploader jusqu'\u00e0 5tb de donn\u00e9es et de les r\u00e9cup\u00e9rer... Sans adh\u00e9rence \u00e0 google (juste l'url) #devoxxfr"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 11:09:44 +0000",
+			"from_user" : "duchessfr",
+			"from_user_id" : 115522337,
+			"from_user_id_str" : "115522337",
+			"from_user_name" : "DuchessFr",
+			"geo" : null,
+			"id" : 317594418708353024,
+			"id_str" : "317594418708353024",
+			"iso_language_code" : "fr",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/3046910797\/7c1f5754b49b737dc1c55217275756b5_normal.png",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/3046910797\/7c1f5754b49b737dc1c55217275756b5_normal.png",
+			"source" : "&lt;a href=&quot;http:\/\/twitter.com\/download\/android&quot;&gt;Twitter for Android&lt;\/a&gt;",
+			"text" : "@AnneFMarie a la pause d\u00e9jeuner ;-) Rdv en haut des marches a l'entr\u00e9e #DevoxxFr",
+			"to_user" : "AnneFMarie",
+			"to_user_id" : 468481690,
+			"to_user_id_str" : "468481690",
+			"to_user_name" : "AnneFrancoise Marie",
+			"in_reply_to_status_id" : 317587489739128833,
+			"in_reply_to_status_id_str" : "317587489739128833"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 11:08:38 +0000",
+			"from_user" : "jak78",
+			"from_user_id" : 19625747,
+			"from_user_id_str" : "19625747",
+			"from_user_name" : "Julien Jakubowski",
+			"geo" : null,
+			"id" : 317594140231753728,
+			"id_str" : "317594140231753728",
+			"iso_language_code" : "fr",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/2674540899\/24c165f6c1f2e8236097a92a0b1918c6_normal.png",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/2674540899\/24c165f6c1f2e8236097a92a0b1918c6_normal.png",
+			"source" : "&lt;a href=&quot;http:\/\/www.echofon.com\/&quot;&gt;Echofon&lt;\/a&gt;",
+			"text" : "Merci :-) RT @nrichand: Prez tr\u00e8s sympa de JS propre par @romaintaz &amp; @jak78 #devoxxFr http:\/\/t.co\/GTGKCqTAT9"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 11:08:31 +0000",
+			"from_user" : "geoff_deweaver",
+			"from_user_id" : 15040988,
+			"from_user_id_str" : "15040988",
+			"from_user_name" : "Geoff De Weaver ",
+			"geo" : null,
+			"id" : 317594112700317697,
+			"id_str" : "317594112700317697",
+			"iso_language_code" : "fr",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/2991537745\/fb620dc706e6075fb0e1a66d7532e05f_normal.jpeg",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/2991537745\/fb620dc706e6075fb0e1a66d7532e05f_normal.jpeg",
+			"source" : "&lt;a href=&quot;http:\/\/twitter.com\/&quot;&gt;web&lt;\/a&gt;",
+			"text" : "RT @euromaestro: #devoxxfr est un grand succ\u00e8s grace \u00e0 @louisgray @JosePaumard @altolabs @alexisimp il faut pas le rater l'ann\u00e9e prochaine @NicolasLoubet"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 11:08:26 +0000",
+			"from_user" : "fanfansama",
+			"from_user_id" : 61771351,
+			"from_user_id_str" : "61771351",
+			"from_user_name" : "fran\u00e7ois b.",
+			"geo" : null,
+			"id" : 317594092177604609,
+			"id_str" : "317594092177604609",
+			"iso_language_code" : "fr",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/1883178014\/73y0fMct_normal",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/1883178014\/73y0fMct_normal",
+			"source" : "&lt;a href=&quot;http:\/\/blackberry.com\/twitter&quot;&gt;Twitter for BlackBerry\u00ae&lt;\/a&gt;",
+			"text" : "Google storage : taille max par fichier est limite \u00e0 5To... #DevoxxFr"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 11:08:23 +0000",
+			"from_user" : "InFineGroup",
+			"from_user_id" : 248704822,
+			"from_user_id_str" : "248704822",
+			"from_user_name" : "IN FINE",
+			"geo" : null,
+			"id" : 317594077325582337,
+			"id_str" : "317594077325582337",
+			"iso_language_code" : "fr",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/1238338297\/bullet_point_normal.png",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/1238338297\/bullet_point_normal.png",
+			"source" : "&lt;a href=&quot;http:\/\/twitter.com\/download\/android&quot;&gt;Twitter for Android&lt;\/a&gt;",
+			"text" : "RT @rmalaprade: @InFineGroup vous nous r\u00e9galez encore cette ann\u00e9e \u00e0 #DevoxxFR http:\/\/t.co\/LGOwYzYOGD"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 11:07:48 +0000",
+			"from_user" : "romaintaz",
+			"from_user_id" : 35856700,
+			"from_user_id_str" : "35856700",
+			"from_user_name" : "Romain Linsolas ",
+			"geo" : null,
+			"id" : 317593930935975936,
+			"id_str" : "317593930935975936",
+			"iso_language_code" : "fr",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/2865468277\/a79f05fa6d9b67825192dedbe3a8af89_normal.jpeg",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/2865468277\/a79f05fa6d9b67825192dedbe3a8af89_normal.jpeg",
+			"source" : "&lt;a href=&quot;http:\/\/itunes.apple.com\/us\/app\/twitter\/id409789998?mt=12&quot;&gt;Twitter for Mac&lt;\/a&gt;",
+			"text" : "RT @cfalguiere: Une s\u00e9lection de photos de mercredi http:\/\/t.co\/uETrDlXmsC #devoxxfr"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 11:07:36 +0000",
+			"from_user" : "lgueye",
+			"from_user_id" : 171415207,
+			"from_user_id_str" : "171415207",
+			"from_user_name" : "louis gueye",
+			"geo" : null,
+			"id" : 317593879882911744,
+			"id_str" : "317593879882911744",
+			"iso_language_code" : "fr",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/1154195943\/louis_normal.jpg",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/1154195943\/louis_normal.jpg",
+			"source" : "&lt;a href=&quot;http:\/\/twitter.com\/download\/android&quot;&gt;Twitter for Android&lt;\/a&gt;",
+			"text" : "Peu de personnes ont la p\u00e9dagogie d' @OlivierCroisier #devoxxfr. \u00c7a fait la diff\u00e9rence entre un bon et un mauvais speaker"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 11:07:24 +0000",
+			"from_user" : "ZapLinDaSilva",
+			"from_user_id" : 503676533,
+			"from_user_id_str" : "503676533",
+			"from_user_name" : "Zap Lin Da Silva",
+			"geo" : null,
+			"id" : 317593832076238849,
+			"id_str" : "317593832076238849",
+			"iso_language_code" : "fr",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/2177220750\/rubens2_desenho_normal.jpg",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/2177220750\/rubens2_desenho_normal.jpg",
+			"source" : "&lt;a href=&quot;http:\/\/twitter.com\/&quot;&gt;web&lt;\/a&gt;",
+			"text" : "RT @euromaestro: #devoxxfr est un grand succ\u00e8s grace \u00e0 @louisgray @JosePaumard @altolabs @alexisimp il faut pas le rater l'ann\u00e9e prochaine @NicolasLoubet"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 11:07:17 +0000",
+			"from_user" : "Valiantys",
+			"from_user_id" : 115630223,
+			"from_user_id_str" : "115630223",
+			"from_user_name" : "Valiantys",
+			"geo" : null,
+			"id" : 317593802577698816,
+			"id_str" : "317593802577698816",
+			"iso_language_code" : "fr",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/3378975966\/a8269afc9a4850c16d7b7b7cbed7a5a8_normal.jpeg",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/3378975966\/a8269afc9a4850c16d7b7b7cbed7a5a8_normal.jpeg",
+			"source" : "&lt;a href=&quot;http:\/\/twitter.com\/&quot;&gt;web&lt;\/a&gt;",
+			"text" : "Gagnant du concours #Atlassian #Valiantys au #devoxxfr : Kevin Boileau - 1 Nerf Gun ! F\u00e9licitations !"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 11:07:12 +0000",
+			"from_user" : "Le_3K",
+			"from_user_id" : 374471189,
+			"from_user_id_str" : "374471189",
+			"from_user_name" : "Nicolas REY",
+			"geo" : null,
+			"id" : 317593781631336448,
+			"id_str" : "317593781631336448",
+			"iso_language_code" : "fr",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/1713839559\/313772_2526659170785_1382581632_33089177_767060565_n_normal.jpg",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/1713839559\/313772_2526659170785_1382581632_33089177_767060565_n_normal.jpg",
+			"source" : "&lt;a href=&quot;http:\/\/twitter.com\/download\/android&quot;&gt;Twitter for Android&lt;\/a&gt;",
+			"text" : "RT @jblemee: :) RT @LeFreelance: #DevoxxFR \u2013 NoSSII \u2013 R\u00e9action \u00e0 chaud http:\/\/t.co\/COQE8bTiEO"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 11:06:27 +0000",
+			"from_user" : "esiber",
+			"from_user_id" : 40709603,
+			"from_user_id_str" : "40709603",
+			"from_user_name" : "Eric Siber",
+			"geo" : null,
+			"id" : 317593590006169602,
+			"id_str" : "317593590006169602",
+			"iso_language_code" : "fr",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/1548926884\/miniature_normal.jpg",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/1548926884\/miniature_normal.jpg",
+			"source" : "&lt;a href=&quot;http:\/\/twitter.com\/download\/android&quot;&gt;Twitter for Android&lt;\/a&gt;",
+			"text" : "RT @nrichand: Prez tr\u00e8s sympa de JS propre par @romaintaz &amp; @jak78 #devoxxFr http:\/\/t.co\/0g8SdrSdCh"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 11:06:22 +0000",
+			"from_user" : "Valiantys",
+			"from_user_id" : 115630223,
+			"from_user_id_str" : "115630223",
+			"from_user_name" : "Valiantys",
+			"geo" : null,
+			"id" : 317593570930475009,
+			"id_str" : "317593570930475009",
+			"iso_language_code" : "fr",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/3378975966\/a8269afc9a4850c16d7b7b7cbed7a5a8_normal.jpeg",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/3378975966\/a8269afc9a4850c16d7b7b7cbed7a5a8_normal.jpeg",
+			"source" : "&lt;a href=&quot;http:\/\/twitter.com\/&quot;&gt;web&lt;\/a&gt;",
+			"text" : "Gagnant du concours #Atlassian #Valiantys au #devoxxfr : Mait\u00e9 Glinkowski - 1 pass formation JIRA ! F\u00e9licitations !"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 11:06:02 +0000",
+			"from_user" : "cyriux",
+			"from_user_id" : 93734534,
+			"from_user_id_str" : "93734534",
+			"from_user_name" : "cyrille martraire",
+			"geo" : null,
+			"id" : 317593486885019648,
+			"id_str" : "317593486885019648",
+			"iso_language_code" : "en",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/589039460\/moi2_normal.jpg",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/589039460\/moi2_normal.jpg",
+			"source" : "&lt;a href=&quot;http:\/\/twitter.com\/download\/iphone&quot;&gt;Twitter for iPhone&lt;\/a&gt;",
+			"text" : "Compositionality is a key property: independent primitive elements &amp; composition rules, like Unix pipes @natpryce @sf105 #devoxxFR"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 11:05:56 +0000",
+			"from_user" : "rubensjose",
+			"from_user_id" : 60570739,
+			"from_user_id_str" : "60570739",
+			"from_user_name" : "Rubens Jos\u00e9 de Souza",
+			"geo" : null,
+			"id" : 317593463543717889,
+			"id_str" : "317593463543717889",
+			"iso_language_code" : "fr",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/2200137048\/2012-05-07-Rubens_normal.jpg",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/2200137048\/2012-05-07-Rubens_normal.jpg",
+			"source" : "&lt;a href=&quot;http:\/\/twitter.com\/&quot;&gt;web&lt;\/a&gt;",
+			"text" : "RT @euromaestro: #devoxxfr est un grand succ\u00e8s grace \u00e0 @louisgray @JosePaumard @altolabs @alexisimp il faut pas le rater l'ann\u00e9e prochaine @NicolasLoubet"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 11:05:46 +0000",
+			"from_user" : "laut3rry",
+			"from_user_id" : 168265016,
+			"from_user_id_str" : "168265016",
+			"from_user_name" : "LAU Thierry \uff3b\u039e\uff3d",
+			"geo" : null,
+			"id" : 317593418060689408,
+			"id_str" : "317593418060689408",
+			"iso_language_code" : "fr",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/3034544414\/cdeddd952a308833546b0ef194498749_normal.jpeg",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/3034544414\/cdeddd952a308833546b0ef194498749_normal.jpeg",
+			"source" : "&lt;a href=&quot;http:\/\/twitter.com\/download\/android&quot;&gt;Twitter for Android&lt;\/a&gt;",
+			"text" : "Rendez vous \u00e0 tous les sferiens au break de 16h30 sur le stand de @SFEIRfr  pour une photo de groupe. Transmettez l'info svp #devoxxfr"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 11:05:44 +0000",
+			"from_user" : "Valiantys",
+			"from_user_id" : 115630223,
+			"from_user_id_str" : "115630223",
+			"from_user_name" : "Valiantys",
+			"geo" : null,
+			"id" : 317593409151971329,
+			"id_str" : "317593409151971329",
+			"iso_language_code" : "fr",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/3378975966\/a8269afc9a4850c16d7b7b7cbed7a5a8_normal.jpeg",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/3378975966\/a8269afc9a4850c16d7b7b7cbed7a5a8_normal.jpeg",
+			"source" : "&lt;a href=&quot;http:\/\/twitter.com\/&quot;&gt;web&lt;\/a&gt;",
+			"text" : "Gagnant du concours #Atlassian #Valiantys au #devoxxfr : Ghislain Mahieux - 1 Kynesis Keyboard ! F\u00e9licitations !"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 11:05:25 +0000",
+			"from_user" : "nrichand",
+			"from_user_id" : 61715213,
+			"from_user_id_str" : "61715213",
+			"from_user_name" : "Nathaniel Richand",
+			"geo" : null,
+			"id" : 317593332735942656,
+			"id_str" : "317593332735942656",
+			"iso_language_code" : "fr",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/2766428763\/315fd76db948c65706a448cea3da7bc1_normal.jpeg",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/2766428763\/315fd76db948c65706a448cea3da7bc1_normal.jpeg",
+			"source" : "&lt;a href=&quot;http:\/\/seesmic.com\/&quot;&gt;Seesmic&lt;\/a&gt;",
+			"text" : "Je pr\u00e9f\u00e8re lire Price et Freeman que les voir en conf en fait... #devoxxFr"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 11:05:18 +0000",
+			"from_user" : "NinjaSquad",
+			"from_user_id" : 486547477,
+			"from_user_id_str" : "486547477",
+			"from_user_name" : "Ninja Squad",
+			"geo" : null,
+			"id" : 317593301777780736,
+			"id_str" : "317593301777780736",
+			"iso_language_code" : "fr",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/3247993551\/f0c20d71cda83d2b719471214ea4dcdb_normal.jpeg",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/3247993551\/f0c20d71cda83d2b719471214ea4dcdb_normal.jpeg",
+			"source" : "&lt;a href=&quot;http:\/\/www.echofon.com\/&quot;&gt;Echofon&lt;\/a&gt;",
+			"text" : "RT @davidbgk: &gt; #scopyleft est une entreprise fond\u00e9e sur des valeurs pour cr\u00e9er de la valeur. \u2014 https:\/\/t.co\/C8IG0hZRs2 #DevoxxFR"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 11:05:12 +0000",
+			"from_user" : "XtlCnslt",
+			"from_user_id" : 111557780,
+			"from_user_id_str" : "111557780",
+			"from_user_name" : "Christophe Labouisse",
+			"geo" : null,
+			"id" : 317593275731165184,
+			"id_str" : "317593275731165184",
+			"iso_language_code" : "fr",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/1164902835\/_mg_4775_normal.jpg",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/1164902835\/_mg_4775_normal.jpg",
+			"source" : "&lt;a href=&quot;http:\/\/tapbots.com\/software\/tweetbot\/mac&quot;&gt;Tweetbot for Mac&lt;\/a&gt;",
+			"text" : "Joli: @cfalguiere: Une s\u00e9lection de photos de mercredi http:\/\/t.co\/KvCS2CWSHO #devoxxfr"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 11:04:57 +0000",
+			"from_user" : "Valiantys",
+			"from_user_id" : 115630223,
+			"from_user_id_str" : "115630223",
+			"from_user_name" : "Valiantys",
+			"geo" : null,
+			"id" : 317593215312211969,
+			"id_str" : "317593215312211969",
+			"iso_language_code" : "fr",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/3378975966\/a8269afc9a4850c16d7b7b7cbed7a5a8_normal.jpeg",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/3378975966\/a8269afc9a4850c16d7b7b7cbed7a5a8_normal.jpeg",
+			"source" : "&lt;a href=&quot;http:\/\/twitter.com\/&quot;&gt;web&lt;\/a&gt;",
+			"text" : "Gagnant du concours #Atlassian #Valiantys au #devoxxfr : Nicolas Piquot - 1 pass formation JIRA ! F\u00e9licitations !"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 11:03:51 +0000",
+			"from_user" : "DK_Coble",
+			"from_user_id" : 126089692,
+			"from_user_id_str" : "126089692",
+			"from_user_name" : "Dennis Coble",
+			"geo" : null,
+			"id" : 317592937229873152,
+			"id_str" : "317592937229873152",
+			"iso_language_code" : "fr",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/2993523265\/deed7e166c6b7e2ffa73896cf4fc6b4b_normal.jpeg",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/2993523265\/deed7e166c6b7e2ffa73896cf4fc6b4b_normal.jpeg",
+			"source" : "&lt;a href=&quot;http:\/\/twitter.com\/&quot;&gt;web&lt;\/a&gt;",
+			"text" : "RT @euromaestro: #devoxxfr est un grand succ\u00e8s grace \u00e0 @louisgray @JosePaumard @altolabs @alexisimp il faut pas le rater l'ann\u00e9e prochaine @NicolasLoubet"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 11:03:47 +0000",
+			"from_user" : "nrichand",
+			"from_user_id" : 61715213,
+			"from_user_id_str" : "61715213",
+			"from_user_name" : "Nathaniel Richand",
+			"geo" : null,
+			"id" : 317592919827693568,
+			"id_str" : "317592919827693568",
+			"iso_language_code" : "fr",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/2766428763\/315fd76db948c65706a448cea3da7bc1_normal.jpeg",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/2766428763\/315fd76db948c65706a448cea3da7bc1_normal.jpeg",
+			"source" : "&lt;a href=&quot;http:\/\/seesmic.com\/&quot;&gt;Seesmic&lt;\/a&gt;",
+			"text" : "Prez tr\u00e8s sympa de JS propre par @romaintaz &amp; @jak78 #devoxxFr http:\/\/t.co\/0g8SdrSdCh"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 11:03:10 +0000",
+			"from_user" : "nedseb",
+			"from_user_id" : 159472936,
+			"from_user_id_str" : "159472936",
+			"from_user_name" : "S\u00e9bastien NEDJAR",
+			"geo" : null,
+			"id" : 317592767285035009,
+			"id_str" : "317592767285035009",
+			"iso_language_code" : "fr",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/2783981378\/a3626518ce8833329b499d3d313aa8a5_normal.png",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/2783981378\/a3626518ce8833329b499d3d313aa8a5_normal.png",
+			"source" : "&lt;a href=&quot;http:\/\/twitter.com\/download\/android&quot;&gt;Twitter for Android&lt;\/a&gt;",
+			"text" : "#devoxxfr Pr\u00e9sentation tr\u00e8s p\u00e9dagogique de @OlivierCroisier  o\u00f9 l'on fait du haskell avec des chats partout."
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 11:02:52 +0000",
+			"from_user" : "golo_lang",
+			"from_user_id" : 1227667801,
+			"from_user_id_str" : "1227667801",
+			"from_user_name" : "Golo JVM Language",
+			"geo" : null,
+			"id" : 317592688088207360,
+			"id_str" : "317592688088207360",
+			"iso_language_code" : "en",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/3432327239\/e8cd07d2c65cf8569f8d53becd260f4c_normal.png",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/3432327239\/e8cd07d2c65cf8569f8d53becd260f4c_normal.png",
+			"source" : "&lt;a href=&quot;http:\/\/tapbots.com\/tweetbot&quot;&gt;Tweetbot for iOS&lt;\/a&gt;",
+			"text" : "RT @campoy83: \"@golo_lang: Golo is now open source software! http:\/\/t.co\/Z61uh2ddFb\" fun language with a familiar name #devoxxfr"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 11:01:25 +0000",
+			"from_user" : "Armaklan",
+			"from_user_id" : 141102608,
+			"from_user_id_str" : "141102608",
+			"from_user_name" : "Lionel Zuber",
+			"geo" : null,
+			"id" : 317592324085518336,
+			"id_str" : "317592324085518336",
+			"iso_language_code" : "fr",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/1583321500\/avatar_small_normal.jpg",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/1583321500\/avatar_small_normal.jpg",
+			"source" : "&lt;a href=&quot;http:\/\/twitter.com\/&quot;&gt;web&lt;\/a&gt;",
+			"text" : "RT @XtlCnslt: Choisir le paradigme distribu\u00e9 c\u2019est risquer de se faire virer \u2026 mais dans la gloire. #DevoxxFR"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 11:01:22 +0000",
+			"from_user" : "MacBuche",
+			"from_user_id" : 1025949272,
+			"from_user_id_str" : "1025949272",
+			"from_user_name" : "Vincent Membr\u00e9",
+			"geo" : null,
+			"id" : 317592312517623809,
+			"id_str" : "317592312517623809",
+			"iso_language_code" : "fr",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/3046253917\/1f64bb38e7c605bd0e948a47384998b0_normal.jpeg",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/3046253917\/1f64bb38e7c605bd0e948a47384998b0_normal.jpeg",
+			"source" : "&lt;a href=&quot;http:\/\/twitter.com\/download\/android&quot;&gt;Twitter for Android&lt;\/a&gt;",
+			"text" : "HTML5 par Martin Gorner a #devoxxFR, comme quoi on peut faire des trucs uber cool avec le web!"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 11:00:39 +0000",
+			"from_user" : "danieldeluca",
+			"from_user_id" : 14715465,
+			"from_user_id_str" : "14715465",
+			"from_user_name" : "Daniel De Luca",
+			"geo" : null,
+			"id" : 317592132665868289,
+			"id_str" : "317592132665868289",
+			"iso_language_code" : "fr",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/1210005546\/dad-01_normal.jpg",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/1210005546\/dad-01_normal.jpg",
+			"source" : "&lt;a href=&quot;http:\/\/janetter.net\/&quot;&gt;Janetter for Mac&lt;\/a&gt;",
+			"text" : "RT @cfalguiere: Une s\u00e9lection de photos de mercredi http:\/\/t.co\/uETrDlXmsC #devoxxfr"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 11:00:22 +0000",
+			"from_user" : "ogerardin",
+			"from_user_id" : 11540802,
+			"from_user_id_str" : "11540802",
+			"from_user_name" : "Olivier G\u00e9rardin [\u2630]",
+			"geo" : null,
+			"id" : 317592059479474177,
+			"id_str" : "317592059479474177",
+			"iso_language_code" : "fr",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/1133351980\/29207d1_normal.png",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/1133351980\/29207d1_normal.png",
+			"source" : "&lt;a href=&quot;http:\/\/www.tweetdeck.com&quot;&gt;TweetDeck&lt;\/a&gt;",
+			"text" : "RT @juliendubois: A #DevoxxFr on vous apprend \u00e0 faire des tris dans 6 langages diff\u00e9rents, et l'ordre des salles sur http:\/\/t.co\/AZmWi0LwDn c'est B,C,A"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 10:59:42 +0000",
+			"from_user" : "jponge",
+			"from_user_id" : 16067953,
+			"from_user_id_str" : "16067953",
+			"from_user_name" : "Julien Ponge\u2122",
+			"geo" : null,
+			"id" : 317591892424544256,
+			"id_str" : "317591892424544256",
+			"iso_language_code" : "fr",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/1813847015\/me_normal.jpg",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/1813847015\/me_normal.jpg",
+			"source" : "&lt;a href=&quot;http:\/\/tapbots.com\/tweetbot&quot;&gt;Tweetbot for iOS&lt;\/a&gt;",
+			"text" : "RT @CedricChampeau: Venez combattre vos a priori sur #groovy et le typage cet a-m \u00e0 14h30 #devoxxfr #dsl"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 10:59:08 +0000",
+			"from_user" : "fcamblor",
+			"from_user_id" : 14859372,
+			"from_user_id_str" : "14859372",
+			"from_user_name" : "Fr\u00e9d\u00e9ric Camblor",
+			"geo" : null,
+			"id" : 317591748392144896,
+			"id_str" : "317591748392144896",
+			"iso_language_code" : "fr",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/774272530\/Reunion18022010PortailsPortletsJava_normal.jpg",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/774272530\/Reunion18022010PortailsPortletsJava_normal.jpg",
+			"source" : "&lt;a href=&quot;http:\/\/twitter.com\/download\/android&quot;&gt;Twitter for Android&lt;\/a&gt;",
+			"text" : "Super sympa la feature de traffic splitting sur @app_engine! Balancez x% des users sur une instance != pour tester leur comportemt #devoxxfr"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 10:58:21 +0000",
+			"from_user" : "VincentBouthors",
+			"from_user_id" : 893048664,
+			"from_user_id_str" : "893048664",
+			"from_user_name" : "Vincent Bouthors",
+			"geo" : null,
+			"id" : 317591551461187586,
+			"id_str" : "317591551461187586",
+			"iso_language_code" : "fr",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/2740842437\/038d5a91d532fc9b900ff89afb2e5f21_normal.jpeg",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/2740842437\/038d5a91d532fc9b900ff89afb2e5f21_normal.jpeg",
+			"source" : "&lt;a href=&quot;http:\/\/twitter.com\/&quot;&gt;web&lt;\/a&gt;",
+			"text" : "RT @JpEncausse: Les slides de la conf #DevoxxFR sur SARAH une maison intelligente: http:\/\/t.co\/p2iD9JRBLE"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 10:58:17 +0000",
+			"from_user" : "jak78",
+			"from_user_id" : 19625747,
+			"from_user_id_str" : "19625747",
+			"from_user_name" : "Julien Jakubowski",
+			"geo" : null,
+			"id" : 317591537984872451,
+			"id_str" : "317591537984872451",
+			"iso_language_code" : "fr",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/2674540899\/24c165f6c1f2e8236097a92a0b1918c6_normal.png",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/2674540899\/24c165f6c1f2e8236097a92a0b1918c6_normal.png",
+			"source" : "&lt;a href=&quot;http:\/\/www.echofon.com\/&quot;&gt;Echofon&lt;\/a&gt;",
+			"text" : "RT @nico_charles: Comparaison Javascript et Maroile au #devoxxfr\nJavascript est plus proche du Durian que du fromage en terme d'odeur"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 10:57:40 +0000",
+			"from_user" : "anthonycoulon",
+			"from_user_id" : 416991865,
+			"from_user_id_str" : "416991865",
+			"from_user_name" : "Anthony Coulon",
+			"geo" : null,
+			"id" : 317591379297566720,
+			"id_str" : "317591379297566720",
+			"iso_language_code" : "fr",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/1648375734\/photos_profil_normal.JPG",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/1648375734\/photos_profil_normal.JPG",
+			"source" : "&lt;a href=&quot;http:\/\/twitter.com\/download\/android&quot;&gt;Twitter for Android&lt;\/a&gt;",
+			"text" : "En quelques lignes de #css3 faire du 3D dans vos pages web ! #devoxxfr #valtech"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 10:57:13 +0000",
+			"from_user" : "IBMSoftwareFR",
+			"from_user_id" : 368252398,
+			"from_user_id_str" : "368252398",
+			"from_user_name" : "IBMSoftwareFR",
+			"geo" : null,
+			"id" : 317591267909451777,
+			"id_str" : "317591267909451777",
+			"iso_language_code" : "fr",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/1929394800\/PHOTO_TW_normal.jpg",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/1929394800\/PHOTO_TW_normal.jpg",
+			"source" : "&lt;a href=&quot;http:\/\/www.hootsuite.com&quot;&gt;HootSuite&lt;\/a&gt;",
+			"text" : "RT @webspherefrance: Nous recrutons des d\u00e9veloppeurs java, JEE pour nos Lab fran\u00e7ais passez sur le stand #IBM #DevoxxFR"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 10:57:04 +0000",
+			"from_user" : "romaintaz",
+			"from_user_id" : 35856700,
+			"from_user_id_str" : "35856700",
+			"from_user_name" : "Romain Linsolas ",
+			"geo" : null,
+			"id" : 317591231733587968,
+			"id_str" : "317591231733587968",
+			"iso_language_code" : "fr",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/2865468277\/a79f05fa6d9b67825192dedbe3a8af89_normal.jpeg",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/2865468277\/a79f05fa6d9b67825192dedbe3a8af89_normal.jpeg",
+			"source" : "&lt;a href=&quot;http:\/\/itunes.apple.com\/us\/app\/twitter\/id409789998?mt=12&quot;&gt;Twitter for Mac&lt;\/a&gt;",
+			"text" : "L'animation et la 3D en CSS3 \u00e7a a l'air simple... Mais \u00e7a doit \u00eatre moins facile \u00e0 faire en vrai :) #DevoxxFR"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 10:56:43 +0000",
+			"from_user" : "jblemee",
+			"from_user_id" : 84426113,
+			"from_user_id_str" : "84426113",
+			"from_user_name" : "Jean-Baptiste Lem\u00e9e",
+			"geo" : null,
+			"id" : 317591140863991808,
+			"id_str" : "317591140863991808",
+			"iso_language_code" : "fr",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/3005940514\/8904080858d375ba48a025623bbd3782_normal.jpeg",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/3005940514\/8904080858d375ba48a025623bbd3782_normal.jpeg",
+			"source" : "&lt;a href=&quot;http:\/\/www.tweetcaster.com&quot;&gt;TweetCaster for Android&lt;\/a&gt;",
+			"text" : ":) RT @LeFreelance: #DevoxxFR \u2013 NoSSII \u2013 R\u00e9action \u00e0 chaud http:\/\/t.co\/COQE8bTiEO"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 10:56:31 +0000",
+			"from_user" : "cfalguiere",
+			"from_user_id" : 28764620,
+			"from_user_id_str" : "28764620",
+			"from_user_name" : "Claude Falgui\u00e8re",
+			"geo" : null,
+			"id" : 317591091668983808,
+			"id_str" : "317591091668983808",
+			"iso_language_code" : "fr",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/1117335774\/cfalguiere_300_clair_normal.jpg",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/1117335774\/cfalguiere_300_clair_normal.jpg",
+			"source" : "&lt;a href=&quot;http:\/\/twitter.com\/&quot;&gt;web&lt;\/a&gt;",
+			"text" : "Une s\u00e9lection de photos de mercredi http:\/\/t.co\/uETrDlXmsC #devoxxfr"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 10:55:55 +0000",
+			"from_user" : "lhuet35",
+			"from_user_id" : 224374288,
+			"from_user_id_str" : "224374288",
+			"from_user_name" : "Laurent HUET",
+			"geo" : null,
+			"id" : 317590938799177729,
+			"id_str" : "317590938799177729",
+			"iso_language_code" : "fr",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/2160253817\/laurent_normal.png",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/2160253817\/laurent_normal.png",
+			"source" : "&lt;a href=&quot;http:\/\/twitter.com\/download\/android&quot;&gt;Twitter for Android&lt;\/a&gt;",
+			"text" : "RT @JpEncausse: Conf #DevoxxFR  RaspberryPI avec @lhuet35 avec un NodeJS pour piloter des composant. super compl\u00e9ment pour SARAH (http:\/\/t.co\/uiDAjrFYmo)"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 10:55:45 +0000",
+			"from_user" : "juliendubois",
+			"from_user_id" : 24742031,
+			"from_user_id_str" : "24742031",
+			"from_user_name" : "Julien Dubois",
+			"geo" : null,
+			"id" : 317590899741835264,
+			"id_str" : "317590899741835264",
+			"iso_language_code" : "fr",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/348313383\/julien_dubois_picture240x299_normal.jpg",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/348313383\/julien_dubois_picture240x299_normal.jpg",
+			"source" : "&lt;a href=&quot;http:\/\/twitter.com\/&quot;&gt;web&lt;\/a&gt;",
+			"text" : "A #DevoxxFr on vous apprend \u00e0 faire des tris dans 6 langages diff\u00e9rents, et l'ordre des salles sur http:\/\/t.co\/AZmWi0LwDn c'est B,C,A"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 10:55:21 +0000",
+			"from_user" : "lhuet35",
+			"from_user_id" : 224374288,
+			"from_user_id_str" : "224374288",
+			"from_user_name" : "Laurent HUET",
+			"geo" : null,
+			"id" : 317590796746506240,
+			"id_str" : "317590796746506240",
+			"iso_language_code" : "en",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/2160253817\/laurent_normal.png",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/2160253817\/laurent_normal.png",
+			"source" : "&lt;a href=&quot;http:\/\/twitter.com\/download\/android&quot;&gt;Twitter for Android&lt;\/a&gt;",
+			"text" : "RT @tgrall: #DevoxxFR enjoying @lhuet35 show on home automation (DIY)"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 10:55:17 +0000",
+			"from_user" : "_Stephane_",
+			"from_user_id" : 24149509,
+			"from_user_id_str" : "24149509",
+			"from_user_name" : "St\u00e9phane Castrec",
+			"geo" : {
+				"coordinates" : [48.83074611, 2.3397944693],
+				"type" : "Point"
+			},
+			"id" : 317590779914768385,
+			"id_str" : "317590779914768385",
+			"iso_language_code" : "fr",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"place" : {
+				"full_name" : "Paris",
+				"id" : "7238f93a3e899af6",
+				"type" : "CITY"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/2305383920\/ugf13iyzlddm3gr65u70_normal.jpeg",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/2305383920\/ugf13iyzlddm3gr65u70_normal.jpeg",
+			"source" : "&lt;a href=&quot;http:\/\/twitter.com\/#!\/download\/ipad&quot;&gt;Twitter for iPad&lt;\/a&gt;",
+			"text" : "S\u00e9curit\u00e9: il faut arr\u00eater les mots de passe. (Diminuer) #DevoxxFR"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 10:55:07 +0000",
+			"from_user" : "lhuet35",
+			"from_user_id" : 224374288,
+			"from_user_id_str" : "224374288",
+			"from_user_name" : "Laurent HUET",
+			"geo" : null,
+			"id" : 317590738252750848,
+			"id_str" : "317590738252750848",
+			"iso_language_code" : "fr",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/2160253817\/laurent_normal.png",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/2160253817\/laurent_normal.png",
+			"source" : "&lt;a href=&quot;http:\/\/twitter.com\/download\/android&quot;&gt;Twitter for Android&lt;\/a&gt;",
+			"text" : "RT @sebprunier: Session sympa de @lhuet35 sur la domotique DIY ! Surtout pour un n\u00e9ophyte comme moi :-) Ca donne envie de tester ! #DevoxxFR"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 10:54:58 +0000",
+			"from_user" : "lhuet35",
+			"from_user_id" : 224374288,
+			"from_user_id_str" : "224374288",
+			"from_user_name" : "Laurent HUET",
+			"geo" : null,
+			"id" : 317590700134907904,
+			"id_str" : "317590700134907904",
+			"iso_language_code" : "fr",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/2160253817\/laurent_normal.png",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/2160253817\/laurent_normal.png",
+			"source" : "&lt;a href=&quot;http:\/\/twitter.com\/download\/android&quot;&gt;Twitter for Android&lt;\/a&gt;",
+			"text" : "RT @obazoud: Demo  #RaspberryPI par @lhuet35 avec du #NodeJS #devoxxfr #nice"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 10:53:10 +0000",
+			"from_user" : "aheritier",
+			"from_user_id" : 16325922,
+			"from_user_id_str" : "16325922",
+			"from_user_name" : "Arnaud H\u00e9ritier",
+			"geo" : null,
+			"id" : 317590246680313856,
+			"id_str" : "317590246680313856",
+			"iso_language_code" : "fr",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/3443348067\/e47ee62b680324c76552881304ea4d78_normal.jpeg",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/3443348067\/e47ee62b680324c76552881304ea4d78_normal.jpeg",
+			"source" : "&lt;a href=&quot;http:\/\/twitter.com\/download\/iphone&quot;&gt;Twitter for iPhone&lt;\/a&gt;",
+			"text" : "Html5, CSS3 et beaucoup de fun @martingorner #DevoxxFR http:\/\/t.co\/v776vKdxfv"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 10:52:42 +0000",
+			"from_user" : "nromanetti",
+			"from_user_id" : 11372422,
+			"from_user_id_str" : "11372422",
+			"from_user_name" : "Nicolas Romanetti",
+			"geo" : null,
+			"id" : 317590131852845057,
+			"id_str" : "317590131852845057",
+			"iso_language_code" : "en",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/73963531\/jaxio-nicolas-romanetti_normal.jpg",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/73963531\/jaxio-nicolas-romanetti_normal.jpg",
+			"source" : "&lt;a href=&quot;http:\/\/twitter.com\/download\/iphone&quot;&gt;Twitter for iPhone&lt;\/a&gt;",
+			"text" : "#devoxxfr @OlivierCroisier is a great speaker"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 10:52:14 +0000",
+			"from_user" : "MiraLak",
+			"from_user_id" : 164019927,
+			"from_user_id_str" : "164019927",
+			"from_user_name" : "Amira L.",
+			"geo" : null,
+			"id" : 317590014252961792,
+			"id_str" : "317590014252961792",
+			"iso_language_code" : "fr",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/1829020869\/amira_normal.jpeg",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/1829020869\/amira_normal.jpeg",
+			"source" : "&lt;a href=&quot;http:\/\/twitter.com\/download\/android&quot;&gt;Twitter for Android&lt;\/a&gt;",
+			"text" : "RT @ElleneSiber: Je referai mon quickie les bronzes font du dev Seine A aujourd'hui a 13h #devoxxfr"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 10:52:13 +0000",
+			"from_user" : "esiber",
+			"from_user_id" : 40709603,
+			"from_user_id_str" : "40709603",
+			"from_user_name" : "Eric Siber",
+			"geo" : null,
+			"id" : 317590011027546112,
+			"id_str" : "317590011027546112",
+			"iso_language_code" : "fr",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/1548926884\/miniature_normal.jpg",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/1548926884\/miniature_normal.jpg",
+			"source" : "&lt;a href=&quot;http:\/\/twitter.com\/#!\/download\/ipad&quot;&gt;Twitter for iPad&lt;\/a&gt;",
+			"text" : "\u201c@ElleneSiber: Je referai mon quickie les bronzes font du dev Seine A aujourd'hui a 13h #devoxxfr\u201d (cc @juliamateodc )",
+			"to_user" : "ElleneSiber",
+			"to_user_id" : 86092770,
+			"to_user_id_str" : "86092770",
+			"to_user_name" : "Ell\u00e8ne Siber Dijoux",
+			"in_reply_to_status_id" : 317588988569481217,
+			"in_reply_to_status_id_str" : "317588988569481217"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 10:51:27 +0000",
+			"from_user" : "ChristopheBorde",
+			"from_user_id" : 82839225,
+			"from_user_id_str" : "82839225",
+			"from_user_name" : "Christophe Borde",
+			"geo" : null,
+			"id" : 317589815472291841,
+			"id_str" : "317589815472291841",
+			"iso_language_code" : "fr",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/1998497892\/image_normal.jpg",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/1998497892\/image_normal.jpg",
+			"source" : "&lt;a href=&quot;http:\/\/twitter.com\/download\/iphone&quot;&gt;Twitter for iPhone&lt;\/a&gt;",
+			"text" : "RT @WebSphereFrance: Nous recrutons des d\u00e9veloppeurs java, JEE pour nos Lab fran\u00e7ais passez sur le stand #IBM #DevoxxFR"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 10:51:16 +0000",
+			"from_user" : "karesti",
+			"from_user_id" : 134497728,
+			"from_user_id_str" : "134497728",
+			"from_user_name" : "Katia Aresti",
+			"geo" : null,
+			"id" : 317589769238495232,
+			"id_str" : "317589769238495232",
+			"iso_language_code" : "en",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/1183066621\/petite_twitter_normal.png",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/1183066621\/petite_twitter_normal.png",
+			"source" : "&lt;a href=&quot;http:\/\/twitter.com\/download\/iphone&quot;&gt;Twitter for iPhone&lt;\/a&gt;",
+			"text" : "My object and my helper ... Because my object is getting too big. And the helper of the helper #solid #DevoxxFR"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 10:51:15 +0000",
+			"from_user" : "esiber",
+			"from_user_id" : 40709603,
+			"from_user_id_str" : "40709603",
+			"from_user_name" : "Eric Siber",
+			"geo" : null,
+			"id" : 317589765430054913,
+			"id_str" : "317589765430054913",
+			"iso_language_code" : "fr",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/1548926884\/miniature_normal.jpg",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/1548926884\/miniature_normal.jpg",
+			"source" : "&lt;a href=&quot;http:\/\/twitter.com\/#!\/download\/ipad&quot;&gt;Twitter for iPad&lt;\/a&gt;",
+			"text" : "\u201c@ElleneSiber: Je referai mon quickie les bronzes font du dev Seine A aujourd'hui a 13h #devoxxfr\u201d :-)",
+			"to_user" : "ElleneSiber",
+			"to_user_id" : 86092770,
+			"to_user_id_str" : "86092770",
+			"to_user_name" : "Ell\u00e8ne Siber Dijoux",
+			"in_reply_to_status_id" : 317588988569481217,
+			"in_reply_to_status_id_str" : "317588988569481217"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 10:50:30 +0000",
+			"from_user" : "ZenikaIT",
+			"from_user_id" : 77093727,
+			"from_user_id_str" : "77093727",
+			"from_user_name" : "Zenika",
+			"geo" : null,
+			"id" : 317589578930331648,
+			"id_str" : "317589578930331648",
+			"iso_language_code" : "fr",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/2424545844\/hjg366lxgvt79yvt1qci_normal.jpeg",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/2424545844\/hjg366lxgvt79yvt1qci_normal.jpeg",
+			"source" : "&lt;a href=&quot;http:\/\/www.tweetdeck.com&quot;&gt;TweetDeck&lt;\/a&gt;",
+			"text" : "@OlivierCroisier vous explique les principes de programmation fonctionnelle, avec des chats #WTF #DevoxxFR http:\/\/t.co\/jt4LmBGxpD",
+			"to_user" : "OlivierCroisier",
+			"to_user_id" : 17415957,
+			"to_user_id_str" : "17415957",
+			"to_user_name" : "Olivier Croisier"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 10:50:21 +0000",
+			"from_user" : "jak78",
+			"from_user_id" : 19625747,
+			"from_user_id_str" : "19625747",
+			"from_user_name" : "Julien Jakubowski",
+			"geo" : null,
+			"id" : 317589539491282944,
+			"id_str" : "317589539491282944",
+			"iso_language_code" : "fr",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/2674540899\/24c165f6c1f2e8236097a92a0b1918c6_normal.png",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/2674540899\/24c165f6c1f2e8236097a92a0b1918c6_normal.png",
+			"source" : "&lt;a href=&quot;http:\/\/www.echofon.com\/&quot;&gt;Echofon&lt;\/a&gt;",
+			"text" : "Ajout\u00e9 \u00e0 22h hier :) RT @lgueye: @jak78 @romaintaz ont des slides sympa sur comment faire du JS propre. #devoxxfr http:\/\/t.co\/QnZAliVQBx"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 10:50:00 +0000",
+			"from_user" : "scopyleft",
+			"from_user_id" : 606105067,
+			"from_user_id_str" : "606105067",
+			"from_user_name" : "scopyleft",
+			"geo" : null,
+			"id" : 317589451964575744,
+			"id_str" : "317589451964575744",
+			"iso_language_code" : "fr",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/2301901138\/33pzysexwc046fod52c9_normal.png",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/2301901138\/33pzysexwc046fod52c9_normal.png",
+			"source" : "&lt;a href=&quot;https:\/\/github.com\/scopyleft&quot;&gt;ScopyleftTwaggr&lt;\/a&gt;",
+			"text" : "RT @davidbgk: &gt; #scopyleft est une entreprise fond\u00e9e sur des valeurs pour cr\u00e9er de la valeur. \u2014 https:\/\/t.co\/C8IG0hZRs2 #DevoxxFR"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 10:49:47 +0000",
+			"from_user" : "IBMMobileFr",
+			"from_user_id" : 543291601,
+			"from_user_id_str" : "543291601",
+			"from_user_name" : "IBMMobileFr",
+			"geo" : null,
+			"id" : 317589398004826112,
+			"id_str" : "317589398004826112",
+			"iso_language_code" : "fr",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/2240796200\/Mobile_iconSmall_normal.JPG",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/2240796200\/Mobile_iconSmall_normal.JPG",
+			"source" : "&lt;a href=&quot;http:\/\/twitter.com\/download\/iphone&quot;&gt;Twitter for iPhone&lt;\/a&gt;",
+			"text" : "RT @WebSphereFrance: Nous recrutons des d\u00e9veloppeurs java, JEE pour nos Lab fran\u00e7ais passez sur le stand #IBM #DevoxxFR"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 10:49:34 +0000",
+			"from_user" : "claudeaubry",
+			"from_user_id" : 68117324,
+			"from_user_id_str" : "68117324",
+			"from_user_name" : "Claude Aubry",
+			"geo" : null,
+			"id" : 317589342027661312,
+			"id_str" : "317589342027661312",
+			"iso_language_code" : "fr",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/377722324\/logo02_normal.png",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/377722324\/logo02_normal.png",
+			"source" : "&lt;a href=&quot;http:\/\/itunes.apple.com\/us\/app\/twitter\/id409789998?mt=12&quot;&gt;Twitter for Mac&lt;\/a&gt;",
+			"text" : "RT @davidbgk: &gt; #scopyleft est une entreprise fond\u00e9e sur des valeurs pour cr\u00e9er de la valeur. \u2014 https:\/\/t.co\/C8IG0hZRs2 #DevoxxFR"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 10:49:20 +0000",
+			"from_user" : "WebSphereFrance",
+			"from_user_id" : 225022490,
+			"from_user_id_str" : "225022490",
+			"from_user_name" : "IBM WebSphere France",
+			"geo" : null,
+			"id" : 317589284204990464,
+			"id_str" : "317589284204990464",
+			"iso_language_code" : "fr",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/2907133978\/10fa87bf1fecea2f82448a2de9480c76_normal.png",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/2907133978\/10fa87bf1fecea2f82448a2de9480c76_normal.png",
+			"source" : "&lt;a href=&quot;http:\/\/twitter.com\/download\/iphone&quot;&gt;Twitter for iPhone&lt;\/a&gt;",
+			"text" : "Nous recrutons des d\u00e9veloppeurs java, JEE pour nos Lab fran\u00e7ais passez sur le stand #IBM #DevoxxFR"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 10:49:17 +0000",
+			"from_user" : "jak78",
+			"from_user_id" : 19625747,
+			"from_user_id_str" : "19625747",
+			"from_user_name" : "Julien Jakubowski",
+			"geo" : null,
+			"id" : 317589270271496193,
+			"id_str" : "317589270271496193",
+			"iso_language_code" : "fr",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/2674540899\/24c165f6c1f2e8236097a92a0b1918c6_normal.png",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/2674540899\/24c165f6c1f2e8236097a92a0b1918c6_normal.png",
+			"source" : "&lt;a href=&quot;http:\/\/www.echofon.com\/&quot;&gt;Echofon&lt;\/a&gt;",
+			"text" : "RT @lgueye: @jak78 @romaintaz ont des slides sympa sur comment faire du JS propre. #devoxxfr http:\/\/t.co\/60xIKWd9AT"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 10:48:34 +0000",
+			"from_user" : "herberts",
+			"from_user_id" : 6854162,
+			"from_user_id_str" : "6854162",
+			"from_user_name" : "Mathias Herberts",
+			"geo" : null,
+			"id" : 317589091673845761,
+			"id_str" : "317589091673845761",
+			"iso_language_code" : "en",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/1869494885\/hbs-pool_normal.png",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/1869494885\/hbs-pool_normal.png",
+			"source" : "&lt;a href=&quot;http:\/\/twitter.com\/download\/android&quot;&gt;Twitter for Android&lt;\/a&gt;",
+			"text" : "#DevoxxFR WTF by @OlivierCroisier http:\/\/t.co\/EQBOBzDd9Y"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 10:48:10 +0000",
+			"from_user" : "ElleneSiber",
+			"from_user_id" : 86092770,
+			"from_user_id_str" : "86092770",
+			"from_user_name" : "Ell\u00e8ne Siber Dijoux",
+			"geo" : null,
+			"id" : 317588988569481217,
+			"id_str" : "317588988569481217",
+			"iso_language_code" : "fr",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/634674964\/ellene.dijoux_gmail.com_ed2d144c_normal.jpg",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/634674964\/ellene.dijoux_gmail.com_ed2d144c_normal.jpg",
+			"source" : "&lt;a href=&quot;http:\/\/twitter.com\/download\/android&quot;&gt;Twitter for Android&lt;\/a&gt;",
+			"text" : "Je referai mon quickie les bronzes font du dev Seine A aujourd'hui a 13h #devoxxfr"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 10:47:59 +0000",
+			"from_user" : "nfonrose",
+			"from_user_id" : 6220,
+			"from_user_id_str" : "6220",
+			"from_user_name" : "Nicolas Fonrose",
+			"geo" : null,
+			"id" : 317588945481392128,
+			"id_str" : "317588945481392128",
+			"iso_language_code" : "fr",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/1218989758\/Photo_profil_Internet_3_normal.png",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/1218989758\/Photo_profil_Internet_3_normal.png",
+			"source" : "&lt;a href=&quot;http:\/\/twitter.com\/download\/iphone&quot;&gt;Twitter for iPhone&lt;\/a&gt;",
+			"text" : "Merci :-) \u201c@cedric_exbrayat: Talk tr\u00e8s int\u00e9ressant sur les co\u00fbts et astuces du cloud par @nfonrose #devoxxfr\u201d",
+			"to_user" : "cedric_exbrayat",
+			"to_user_id" : 17615701,
+			"to_user_id_str" : "17615701",
+			"to_user_name" : "Cedric Exbrayat",
+			"in_reply_to_status_id" : 317582266257793024,
+			"in_reply_to_status_id_str" : "317582266257793024"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 10:47:56 +0000",
+			"from_user" : "jak78",
+			"from_user_id" : 19625747,
+			"from_user_id_str" : "19625747",
+			"from_user_name" : "Julien Jakubowski",
+			"geo" : null,
+			"id" : 317588931497582592,
+			"id_str" : "317588931497582592",
+			"iso_language_code" : "fr",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/2674540899\/24c165f6c1f2e8236097a92a0b1918c6_normal.png",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/2674540899\/24c165f6c1f2e8236097a92a0b1918c6_normal.png",
+			"source" : "&lt;a href=&quot;http:\/\/www.echofon.com\/&quot;&gt;Echofon&lt;\/a&gt;",
+			"text" : "RT @bmarron: Tu as 40 ans ou plus? Tu codes toujours avec plaisir ? On en parle salle Seine A \u00e0 12:35 #DevoxxFR"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 10:47:42 +0000",
+			"from_user" : "nouhoumtraore",
+			"from_user_id" : 111134448,
+			"from_user_id_str" : "111134448",
+			"from_user_name" : "Nouhoum TRAORE",
+			"geo" : null,
+			"id" : 317588873486163968,
+			"id_str" : "317588873486163968",
+			"iso_language_code" : "en",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/1477916667\/nouhoum_normal.JPG",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/1477916667\/nouhoum_normal.JPG",
+			"source" : "&lt;a href=&quot;http:\/\/twitter.com\/download\/android&quot;&gt;Twitter for Android&lt;\/a&gt;",
+			"text" : "Really excited to be at the Goos authors session on SOLID principles #DevoxxFr"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 10:46:25 +0000",
+			"from_user" : "WebSphereFrance",
+			"from_user_id" : 225022490,
+			"from_user_id_str" : "225022490",
+			"from_user_name" : "IBM WebSphere France",
+			"geo" : null,
+			"id" : 317588549752999936,
+			"id_str" : "317588549752999936",
+			"iso_language_code" : "fr",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/2907133978\/10fa87bf1fecea2f82448a2de9480c76_normal.png",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/2907133978\/10fa87bf1fecea2f82448a2de9480c76_normal.png",
+			"source" : "&lt;a href=&quot;http:\/\/twitter.com\/download\/iphone&quot;&gt;Twitter for iPhone&lt;\/a&gt;",
+			"text" : "RT @IBMMobileFr: Toujours du monde pour le Code Rally sur le stand #IBM \u00e0 #DevoxxFR http:\/\/t.co\/bWF1m9fPar"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 10:46:19 +0000",
+			"from_user" : "davidbgk",
+			"from_user_id" : 14463703,
+			"from_user_id_str" : "14463703",
+			"from_user_name" : "David Larlet",
+			"geo" : null,
+			"id" : 317588526432653312,
+			"id_str" : "317588526432653312",
+			"iso_language_code" : "fr",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/926181565\/david-larlet_normal.jpg",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/926181565\/david-larlet_normal.jpg",
+			"source" : "&lt;a href=&quot;http:\/\/itunes.apple.com\/us\/app\/twitter\/id409789998?mt=12&quot;&gt;Twitter for Mac&lt;\/a&gt;",
+			"text" : "&gt; #scopyleft est une entreprise fond\u00e9e sur des valeurs pour cr\u00e9er de la valeur. \u2014 https:\/\/t.co\/C8IG0hZRs2 #DevoxxFR"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 10:45:57 +0000",
+			"from_user" : "twixer",
+			"from_user_id" : 7186572,
+			"from_user_id_str" : "7186572",
+			"from_user_name" : "twixer",
+			"geo" : null,
+			"id" : 317588429531664385,
+			"id_str" : "317588429531664385",
+			"iso_language_code" : "fr",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/1593449904\/1309613085_normal.jpg",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/1593449904\/1309613085_normal.jpg",
+			"source" : "&lt;a href=&quot;http:\/\/europe.nokia.com\/home&quot;&gt;Nokia Share&lt;\/a&gt;",
+			"text" : "En plein r\u00e9glages, @DidierGirard avec @alexismp at #devoxxFR http:\/\/t.co\/XlpHFjIo4H"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 10:45:46 +0000",
+			"from_user" : "jak78",
+			"from_user_id" : 19625747,
+			"from_user_id_str" : "19625747",
+			"from_user_name" : "Julien Jakubowski",
+			"geo" : null,
+			"id" : 317588387613773826,
+			"id_str" : "317588387613773826",
+			"iso_language_code" : "fr",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/2674540899\/24c165f6c1f2e8236097a92a0b1918c6_normal.png",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/2674540899\/24c165f6c1f2e8236097a92a0b1918c6_normal.png",
+			"source" : "&lt;a href=&quot;http:\/\/www.echofon.com\/&quot;&gt;Echofon&lt;\/a&gt;",
+			"text" : "RT @romaintaz: Y avait foule pour notre pr\u00e9sentation ! #DevoxxFr \/cc @jak78 http:\/\/t.co\/LVfdzaLqul"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 10:45:43 +0000",
+			"from_user" : "jak78",
+			"from_user_id" : 19625747,
+			"from_user_id_str" : "19625747",
+			"from_user_name" : "Julien Jakubowski",
+			"geo" : null,
+			"id" : 317588372371673090,
+			"id_str" : "317588372371673090",
+			"iso_language_code" : "fr",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/2674540899\/24c165f6c1f2e8236097a92a0b1918c6_normal.png",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/2674540899\/24c165f6c1f2e8236097a92a0b1918c6_normal.png",
+			"source" : "&lt;a href=&quot;http:\/\/www.echofon.com\/&quot;&gt;Echofon&lt;\/a&gt;",
+			"text" : "RT @FlorianBoulay: @jak78 @romaintaz Tr\u00e8s bonne vue d'ensemble de l'\u00e9tat de l'art dans Javascript #devoxxFr"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 10:44:51 +0000",
+			"from_user" : "sebmade",
+			"from_user_id" : 12237782,
+			"from_user_id_str" : "12237782",
+			"from_user_name" : "S\u00e9bastien Let\u00e9li\u00e9",
+			"geo" : null,
+			"id" : 317588156998365184,
+			"id_str" : "317588156998365184",
+			"iso_language_code" : "fr",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/52235750\/seb2_normal.gif",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/52235750\/seb2_normal.gif",
+			"source" : "&lt;a href=&quot;http:\/\/twitter.com\/download\/iphone&quot;&gt;Twitter for iPhone&lt;\/a&gt;",
+			"text" : "RT @ndeverge: Conf super int\u00e9ressante de @nfonrose sur le cloud #devoxxfr"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 10:44:29 +0000",
+			"from_user" : "romaintaz",
+			"from_user_id" : 35856700,
+			"from_user_id_str" : "35856700",
+			"from_user_name" : "Romain Linsolas ",
+			"geo" : null,
+			"id" : 317588064178421761,
+			"id_str" : "317588064178421761",
+			"iso_language_code" : "fr",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/2865468277\/a79f05fa6d9b67825192dedbe3a8af89_normal.jpeg",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/2865468277\/a79f05fa6d9b67825192dedbe3a8af89_normal.jpeg",
+			"source" : "&lt;a href=&quot;http:\/\/tapbots.com\/tweetbot&quot;&gt;Tweetbot for iOS&lt;\/a&gt;",
+			"text" : "Y avait foule pour notre pr\u00e9sentation ! #DevoxxFr \/cc @jak78 http:\/\/t.co\/LVfdzaLqul"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 10:44:18 +0000",
+			"from_user" : "John_the_Cowboy",
+			"from_user_id" : 248309482,
+			"from_user_id_str" : "248309482",
+			"from_user_name" : "Jonathan LALOU",
+			"geo" : null,
+			"id" : 317588016216555520,
+			"id_str" : "317588016216555520",
+			"iso_language_code" : "fr",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/2475239653\/khk7tlqdwpt4wtveysbm_normal.gif",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/2475239653\/khk7tlqdwpt4wtveysbm_normal.gif",
+			"source" : "&lt;a href=&quot;http:\/\/twitter.com\/download\/android&quot;&gt;Twitter for Android&lt;\/a&gt;",
+			"text" : "C'est parti pour une session sur le cloud de google par @DidierGirard  #devoxxfr"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 10:44:08 +0000",
+			"from_user" : "sebprunier",
+			"from_user_id" : 145972643,
+			"from_user_id_str" : "145972643",
+			"from_user_name" : "S\u00e9bastien PRUNIER",
+			"geo" : null,
+			"id" : 317587974101549057,
+			"id_str" : "317587974101549057",
+			"iso_language_code" : "fr",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/1653935042\/large_226306_normal.png",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/1653935042\/large_226306_normal.png",
+			"source" : "&lt;a href=&quot;http:\/\/twitter.com\/download\/android&quot;&gt;Twitter for Android&lt;\/a&gt;",
+			"text" : "@ndeloof fait un peu de pub pour le #breizhcamp ! Au mois de juin \u00e0 Rennes ! #DevoxxFR http:\/\/t.co\/OXeQ3jRf3P",
+			"to_user" : "ndeloof",
+			"to_user_id" : 15834644,
+			"to_user_id_str" : "15834644",
+			"to_user_name" : "Nicolas De loof"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 10:43:47 +0000",
+			"from_user" : "fl0ge",
+			"from_user_id" : 1305528241,
+			"from_user_id_str" : "1305528241",
+			"from_user_name" : "Florian Gerus",
+			"geo" : null,
+			"id" : 317587888671969280,
+			"id_str" : "317587888671969280",
+			"iso_language_code" : "fr",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/3434870957\/1749c3e6613be5f89f8a557574b75155_normal.jpeg",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/3434870957\/1749c3e6613be5f89f8a557574b75155_normal.jpeg",
+			"source" : "&lt;a href=&quot;http:\/\/twitter.com\/download\/iphone&quot;&gt;Twitter for iPhone&lt;\/a&gt;",
+			"text" : "Un peu de HTML5. \u00c7a change un peu #DevoxxFR"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 10:43:09 +0000",
+			"from_user" : "NHelleringer",
+			"from_user_id" : 28522205,
+			"from_user_id_str" : "28522205",
+			"from_user_name" : "Nicolas Helleringer",
+			"geo" : null,
+			"id" : 317587728390823936,
+			"id_str" : "317587728390823936",
+			"iso_language_code" : "fr",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/119766449\/-a3v8MQ3MaDP4E3kbWytLYbOpCETqWUpIW0n-keMcPr8UfflCn8yXC5oF0RHqJNW_normal.jpg",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/119766449\/-a3v8MQ3MaDP4E3kbWytLYbOpCETqWUpIW0n-keMcPr8UfflCn8yXC5oF0RHqJNW_normal.jpg",
+			"source" : "&lt;a href=&quot;http:\/\/twitter.com\/&quot;&gt;web&lt;\/a&gt;",
+			"text" : "Attendre le d\u00e9marrage d'une conf \u00e0 #DevoxxFR et reconfigurer son routeur Cisco qui est en train de prendre 20k sessions user #lenetcestfou"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 10:42:55 +0000",
+			"from_user" : "JohnMeiss",
+			"from_user_id" : 94177568,
+			"from_user_id_str" : "94177568",
+			"from_user_name" : "Jonathan MEISS",
+			"geo" : null,
+			"id" : 317587671297970176,
+			"id_str" : "317587671297970176",
+			"iso_language_code" : "fr",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/2682740274\/c833996783d7f3b75179fdb5e64c7673_normal.jpeg",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/2682740274\/c833996783d7f3b75179fdb5e64c7673_normal.jpeg",
+			"source" : "&lt;a href=&quot;http:\/\/twitter.com\/download\/iphone&quot;&gt;Twitter for iPhone&lt;\/a&gt;",
+			"text" : "RT @laut3rry: \u00c9crire du JavaScript propre par @romaintaz @jak78 #devoxxfr - \"Tu testes pas ton code JS ? On est en 2013 mec !!!\" http:\/\/t.co\/F1ZfYapeDB"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 10:42:49 +0000",
+			"from_user" : "IBMMobileFr",
+			"from_user_id" : 543291601,
+			"from_user_id_str" : "543291601",
+			"from_user_name" : "IBMMobileFr",
+			"geo" : null,
+			"id" : 317587641409355777,
+			"id_str" : "317587641409355777",
+			"iso_language_code" : "fr",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/2240796200\/Mobile_iconSmall_normal.JPG",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/2240796200\/Mobile_iconSmall_normal.JPG",
+			"source" : "&lt;a href=&quot;http:\/\/twitter.com\/download\/iphone&quot;&gt;Twitter for iPhone&lt;\/a&gt;",
+			"text" : "Toujours du monde pour le Code Rally sur le stand #IBM \u00e0 #DevoxxFR http:\/\/t.co\/bWF1m9fPar"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 10:42:38 +0000",
+			"from_user" : "jak78",
+			"from_user_id" : 19625747,
+			"from_user_id_str" : "19625747",
+			"from_user_name" : "Julien Jakubowski",
+			"geo" : null,
+			"id" : 317587599696994306,
+			"id_str" : "317587599696994306",
+			"iso_language_code" : "fr",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/2674540899\/24c165f6c1f2e8236097a92a0b1918c6_normal.png",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/2674540899\/24c165f6c1f2e8236097a92a0b1918c6_normal.png",
+			"source" : "&lt;a href=&quot;http:\/\/www.echofon.com\/&quot;&gt;Echofon&lt;\/a&gt;",
+			"text" : "RT @laut3rry: \u00c9crire du JavaScript propre par @romaintaz @jak78 #devoxxfr - \"Tu testes pas ton code JS ? On est en 2013 mec !!!\" http:\/\/t.co\/F1ZfYapeDB"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 10:41:41 +0000",
+			"from_user" : "FlorianBoulay",
+			"from_user_id" : 42599880,
+			"from_user_id_str" : "42599880",
+			"from_user_name" : "Florian Boulay",
+			"geo" : null,
+			"id" : 317587357408821248,
+			"id_str" : "317587357408821248",
+			"iso_language_code" : "fr",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/256279509\/worm_normal.png",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/256279509\/worm_normal.png",
+			"source" : "&lt;a href=&quot;http:\/\/twitter.com\/&quot;&gt;web&lt;\/a&gt;",
+			"text" : "@jak78 @romaintaz Tr\u00e8s bonne vue d'ensemble de l'\u00e9tat de l'art dans Javascript #devoxxFr",
+			"to_user" : "jak78",
+			"to_user_id" : 19625747,
+			"to_user_id_str" : "19625747",
+			"to_user_name" : "Julien Jakubowski"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 10:41:36 +0000",
+			"from_user" : "MatthieuSegret",
+			"from_user_id" : 43099358,
+			"from_user_id_str" : "43099358",
+			"from_user_name" : "Matthieu Segret",
+			"geo" : null,
+			"id" : 317587336047230976,
+			"id_str" : "317587336047230976",
+			"iso_language_code" : "fr",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/1286576833\/Matt_normal.png",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/1286576833\/Matt_normal.png",
+			"source" : "&lt;a href=&quot;http:\/\/sites.google.com\/site\/yorufukurou\/&quot;&gt;YoruFukurou&lt;\/a&gt;",
+			"text" : "RT @LeFreelance: #DevoxxFR \u2013 NoSSII \u2013 R\u00e9action \u00e0 chaud http:\/\/t.co\/Ubs357HV5m"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 10:40:47 +0000",
+			"from_user" : "ggarnotel",
+			"from_user_id" : 207537843,
+			"from_user_id_str" : "207537843",
+			"from_user_name" : "Geoffrey Garnotel",
+			"geo" : null,
+			"id" : 317587131742687232,
+			"id_str" : "317587131742687232",
+			"iso_language_code" : "fr",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/1607340079\/sp-studio_normal.jpg",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/1607340079\/sp-studio_normal.jpg",
+			"source" : "&lt;a href=&quot;http:\/\/twitter.com\/download\/android&quot;&gt;Twitter for Android&lt;\/a&gt;",
+			"text" : "En mode d\u00e9couverte du #ceylon #devoxxfr"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 10:40:47 +0000",
+			"from_user" : "sebprunier",
+			"from_user_id" : 145972643,
+			"from_user_id_str" : "145972643",
+			"from_user_name" : "S\u00e9bastien PRUNIER",
+			"geo" : null,
+			"id" : 317587131520413696,
+			"id_str" : "317587131520413696",
+			"iso_language_code" : "fr",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/1653935042\/large_226306_normal.png",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/1653935042\/large_226306_normal.png",
+			"source" : "&lt;a href=&quot;http:\/\/twitter.com\/download\/android&quot;&gt;Twitter for Android&lt;\/a&gt;",
+			"text" : "Session sympa de @lhuet35 sur la domotique DIY ! Surtout pour un n\u00e9ophyte comme moi :-) Ca donne envie de tester ! #DevoxxFR"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 10:40:21 +0000",
+			"from_user" : "JohnMeiss",
+			"from_user_id" : 94177568,
+			"from_user_id_str" : "94177568",
+			"from_user_name" : "Jonathan MEISS",
+			"geo" : null,
+			"id" : 317587021113729024,
+			"id_str" : "317587021113729024",
+			"iso_language_code" : "fr",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/2682740274\/c833996783d7f3b75179fdb5e64c7673_normal.jpeg",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/2682740274\/c833996783d7f3b75179fdb5e64c7673_normal.jpeg",
+			"source" : "&lt;a href=&quot;http:\/\/twitter.com\/download\/iphone&quot;&gt;Twitter for iPhone&lt;\/a&gt;",
+			"text" : "Animez vos pages HTML5 avec #Google \u00e0 #DevoxxFR http:\/\/t.co\/jeC9Wwxfd3"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 10:39:16 +0000",
+			"from_user" : "jeanmarchbh",
+			"from_user_id" : 569731477,
+			"from_user_id_str" : "569731477",
+			"from_user_name" : "JeanMarc Hui Bon Hoa",
+			"geo" : {
+				"coordinates" : [48.8325395, 2.3397688],
+				"type" : "Point"
+			},
+			"id" : 317586748769181696,
+			"id_str" : "317586748769181696",
+			"iso_language_code" : "en",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"place" : {
+				"full_name" : "Paris",
+				"id" : "7238f93a3e899af6",
+				"type" : "CITY"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/2186549982\/30072011-IMG_5114_normal.jpg",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/2186549982\/30072011-IMG_5114_normal.jpg",
+			"source" : "&lt;a href=&quot;http:\/\/twitter.com\/download\/android&quot;&gt;Twitter for Android&lt;\/a&gt;",
+			"text" : "@ypoirier in action at #devoxxfr ! #java #javaembedded #oracle http:\/\/t.co\/5LAzDPhnzq",
+			"to_user" : "ypoirier",
+			"to_user_id" : 40971698,
+			"to_user_id_str" : "40971698",
+			"to_user_name" : "Yolande Poirier"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 10:37:55 +0000",
+			"from_user" : "karesti",
+			"from_user_id" : 134497728,
+			"from_user_id_str" : "134497728",
+			"from_user_name" : "Katia Aresti",
+			"geo" : null,
+			"id" : 317586409181544448,
+			"id_str" : "317586409181544448",
+			"iso_language_code" : "fr",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/1183066621\/petite_twitter_normal.png",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/1183066621\/petite_twitter_normal.png",
+			"source" : "&lt;a href=&quot;http:\/\/twitter.com\/download\/iphone&quot;&gt;Twitter for iPhone&lt;\/a&gt;",
+			"text" : "RT @duchessfr: Envie de remporter un t-shirt Duchess? Followez nous pour en savoir plus ;-)   #DevoxxFr"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 10:36:52 +0000",
+			"from_user" : "sebprunier",
+			"from_user_id" : 145972643,
+			"from_user_id_str" : "145972643",
+			"from_user_name" : "S\u00e9bastien PRUNIER",
+			"geo" : null,
+			"id" : 317586148643979265,
+			"id_str" : "317586148643979265",
+			"iso_language_code" : "en",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/1653935042\/large_226306_normal.png",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/1653935042\/large_226306_normal.png",
+			"source" : "&lt;a href=&quot;http:\/\/twitter.com\/download\/android&quot;&gt;Twitter for Android&lt;\/a&gt;",
+			"text" : "RT @xavierhanin: the spreadsheet with IDE shortcuts for my talk is here: http:\/\/t.co\/nictSBFBj5 #devoxxFR"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 10:36:36 +0000",
+			"from_user" : "alex_0008",
+			"from_user_id" : 424456755,
+			"from_user_id_str" : "424456755",
+			"from_user_name" : "Alexia",
+			"geo" : null,
+			"id" : 317586078880108544,
+			"id_str" : "317586078880108544",
+			"iso_language_code" : "fr",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/3380651622\/0a5bd7c783f4291083f34d63975706fe_normal.png",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/3380651622\/0a5bd7c783f4291083f34d63975706fe_normal.png",
+			"source" : "&lt;a href=&quot;http:\/\/twitter.com\/download\/iphone&quot;&gt;Twitter for iPhone&lt;\/a&gt;",
+			"text" : "RT @emmanuelbernard: #devoxxfr @nfonrose explique comment rester debout pendant la tectonique des plaques du Cloud"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 10:35:58 +0000",
+			"from_user" : "Key_Consulting",
+			"from_user_id" : 395382944,
+			"from_user_id_str" : "395382944",
+			"from_user_name" : "Groupe KeyConsulting",
+			"geo" : null,
+			"id" : 317585921283342336,
+			"id_str" : "317585921283342336",
+			"iso_language_code" : "fr",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/1764393565\/keyboules-no-shadow-300dpi_normal.png",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/1764393565\/keyboules-no-shadow-300dpi_normal.png",
+			"source" : "&lt;a href=&quot;http:\/\/twitter.com\/download\/android&quot;&gt;Twitter for Android&lt;\/a&gt;",
+			"text" : "99 recettes de #Ceylon en approche, avec @emmanuelbernard et @UnFroMage #DevoxxFR"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 10:35:44 +0000",
+			"from_user" : "nedseb",
+			"from_user_id" : 159472936,
+			"from_user_id_str" : "159472936",
+			"from_user_name" : "S\u00e9bastien NEDJAR",
+			"geo" : null,
+			"id" : 317585859476066304,
+			"id_str" : "317585859476066304",
+			"iso_language_code" : "fr",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/2783981378\/a3626518ce8833329b499d3d313aa8a5_normal.png",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/2783981378\/a3626518ce8833329b499d3d313aa8a5_normal.png",
+			"source" : "&lt;a href=&quot;http:\/\/twitter.com\/download\/android&quot;&gt;Twitter for Android&lt;\/a&gt;",
+			"text" : "RT @laut3rry: \u00c9crire du JavaScript propre par @romaintaz @jak78 #devoxxfr - \"Tu testes pas ton code JS ? On est en 2013 mec !!!\" http:\/\/t.co\/F1ZfYapeDB"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 10:35:02 +0000",
+			"from_user" : "finalspy",
+			"from_user_id" : 15178490,
+			"from_user_id_str" : "15178490",
+			"from_user_name" : "Yann PETIT",
+			"geo" : null,
+			"id" : 317585686452641792,
+			"id_str" : "317585686452641792",
+			"iso_language_code" : "fr",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/1659254811\/ypetit_normal.jpg",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/1659254811\/ypetit_normal.jpg",
+			"source" : "&lt;a href=&quot;http:\/\/twitter.com\/download\/iphone&quot;&gt;Twitter for iPhone&lt;\/a&gt;",
+			"text" : "RT @Cedric_Gatay: Bon cette ann\u00e9e je ferai pas de blog post retour de #DevoxxFR je pense, what happens in Devoxx stays in Devoxx ;)"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 10:34:13 +0000",
+			"from_user" : "blep",
+			"from_user_id" : 17677502,
+			"from_user_id_str" : "17677502",
+			"from_user_name" : "Brice LEPORINI",
+			"geo" : null,
+			"id" : 317585481472815104,
+			"id_str" : "317585481472815104",
+			"iso_language_code" : "fr",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/1336780536\/mangaface_normal.jpg",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/1336780536\/mangaface_normal.jpg",
+			"source" : "&lt;a href=&quot;http:\/\/twitter.com\/download\/iphone&quot;&gt;Twitter for iPhone&lt;\/a&gt;",
+			"text" : "#DevoxxFR talk de @AlexisHassler  sur les class loaders tr\u00e8s int\u00e9ressant!"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 10:34:10 +0000",
+			"from_user" : "FabienTravaglia",
+			"from_user_id" : 420962421,
+			"from_user_id_str" : "420962421",
+			"from_user_name" : "Travaglia Fabien",
+			"geo" : null,
+			"id" : 317585465320538112,
+			"id_str" : "317585465320538112",
+			"iso_language_code" : "fr",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/3243281450\/9cb37c102e7d3751d532284cdde8652c_normal.jpeg",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/3243281450\/9cb37c102e7d3751d532284cdde8652c_normal.jpeg",
+			"source" : "&lt;a href=&quot;http:\/\/twitter.com\/download\/android&quot;&gt;Twitter for Android&lt;\/a&gt;",
+			"text" : "La salle sur html5 se rempli deja pour la conf sur html5! #DevoxxFR"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 10:33:51 +0000",
+			"from_user" : "ZenikaIT",
+			"from_user_id" : 77093727,
+			"from_user_id_str" : "77093727",
+			"from_user_name" : "Zenika",
+			"geo" : null,
+			"id" : 317585388132773889,
+			"id_str" : "317585388132773889",
+			"iso_language_code" : "fr",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/2424545844\/hjg366lxgvt79yvt1qci_normal.jpeg",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/2424545844\/hjg366lxgvt79yvt1qci_normal.jpeg",
+			"source" : "&lt;a href=&quot;http:\/\/www.tweetdeck.com&quot;&gt;TweetDeck&lt;\/a&gt;",
+			"text" : "WTF - What's The Fold la conf\u00e9rence d' @OlivierCroisier d\u00e9marre d'ici 10 min en Seine C #DevoxxFR"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 10:33:15 +0000",
+			"from_user" : "PeterReporting",
+			"from_user_id" : 21976028,
+			"from_user_id_str" : "21976028",
+			"from_user_name" : "Gerrit Tienkamp ",
+			"geo" : null,
+			"id" : 317585237838286850,
+			"id_str" : "317585237838286850",
+			"iso_language_code" : "fr",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/2834123024\/3e80809d469e83fbe7de90b7c32d010b_normal.jpeg",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/2834123024\/3e80809d469e83fbe7de90b7c32d010b_normal.jpeg",
+			"source" : "&lt;a href=&quot;http:\/\/twitter.com\/&quot;&gt;web&lt;\/a&gt;",
+			"text" : "RT @euromaestro: #devoxxfr est un grand succ\u00e8s grace \u00e0 @louisgray @JosePaumard @altolabs @alexisimp il faut pas le rater l'ann\u00e9e prochaine @NicolasLoubet"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 10:31:01 +0000",
+			"from_user" : "steveloughran",
+			"from_user_id" : 20469547,
+			"from_user_id_str" : "20469547",
+			"from_user_name" : "Steve Loughran",
+			"geo" : null,
+			"id" : 317584674148982785,
+			"id_str" : "317584674148982785",
+			"iso_language_code" : "en",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/2732446844\/68c08c3f8e82fbc44bd3a536c883945d_normal.jpeg",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/2732446844\/68c08c3f8e82fbc44bd3a536c883945d_normal.jpeg",
+			"source" : "&lt;a href=&quot;http:\/\/www.tweetdeck.com&quot;&gt;TweetDeck&lt;\/a&gt;",
+			"text" : "RT @xavierhanin: the spreadsheet with IDE shortcuts for my talk is here: http:\/\/t.co\/nictSBFBj5 #devoxxFR"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 10:30:33 +0000",
+			"from_user" : "TurHanTech",
+			"from_user_id" : 338324720,
+			"from_user_id_str" : "338324720",
+			"from_user_name" : "Turhan",
+			"geo" : null,
+			"id" : 317584556586848256,
+			"id_str" : "317584556586848256",
+			"iso_language_code" : "en",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/1662896598\/t2_normal.jpg",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/1662896598\/t2_normal.jpg",
+			"source" : "&lt;a href=&quot;http:\/\/getfalcon.pro&quot;&gt;Falcon Pro&lt;\/a&gt;",
+			"text" : "RT @xavierhanin: the spreadsheet with IDE shortcuts for my talk is here: http:\/\/t.co\/nictSBFBj5 #devoxxFR"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 10:30:27 +0000",
+			"from_user" : "PhilippeAntoine",
+			"from_user_id" : 38826556,
+			"from_user_id_str" : "38826556",
+			"from_user_name" : "Philippe Antoine",
+			"geo" : null,
+			"id" : 317584529521008640,
+			"id_str" : "317584529521008640",
+			"iso_language_code" : "en",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/341061937\/PhilippeAntoine_bigger_normal.jpeg",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/341061937\/PhilippeAntoine_bigger_normal.jpeg",
+			"source" : "&lt;a href=&quot;http:\/\/twitter.com\/download\/iphone&quot;&gt;Twitter for iPhone&lt;\/a&gt;",
+			"text" : "@CamilleRoux talking about recruitment #DevoxxFr http:\/\/t.co\/Lyb9YplIRZ",
+			"to_user" : "CamilleRoux",
+			"to_user_id" : 1163191,
+			"to_user_id_str" : "1163191",
+			"to_user_name" : "Camille Roux"
+		}, {
+			"created_at" : "Fri, 29 Mar 2013 10:29:51 +0000",
+			"from_user" : "LDE",
+			"from_user_id" : 5930232,
+			"from_user_id_str" : "5930232",
+			"from_user_name" : "LDE",
+			"geo" : null,
+			"id" : 317584379222306816,
+			"id_str" : "317584379222306816",
+			"iso_language_code" : "fr",
+			"metadata" : {
+				"result_type" : "recent"
+			},
+			"profile_image_url" : "http:\/\/a0.twimg.com\/profile_images\/1367587076\/lde_normal.jpg",
+			"profile_image_url_https" : "https:\/\/si0.twimg.com\/profile_images\/1367587076\/lde_normal.jpg",
+			"source" : "&lt;a href=&quot;http:\/\/www.tweetcaster.com&quot;&gt;TweetCaster for Android&lt;\/a&gt;",
+			"text" : "RT @aheritier: \u201c@duchessfr: Envie de remporter un t-shirt Duchess? Followez nous pour en savoir plus ;-)   #DevoxxFr\u201d je dois le r\u00e9cup\u00e9rer ou ? ;)",
+			"in_reply_to_status_id" : 317574627973033984,
+			"in_reply_to_status_id_str" : "317574627973033984"
+		}
+	],
+	"results_per_page" : 100,
+	"since_id" : 0,
+	"since_id_str" : "0"
+}
