@@ -4,21 +4,23 @@
 
 <html>
 <head>
-<rel ="stylesheet" type="text/css" href="css/main.css" />
 <script type="text/javascript" src="devoxx.js"></script>
 <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDY0kkJiTPVd2U7aTOAwhc9ySH6oHxOIYM&sensor=false">
 </script>
 
-<meta http-equiv="content-type" content="text/php; charset=utf-8" />
+<meta http-equiv="content-type" content="text/html" charset=utf-8" />
 
 <title>Summup!</title>
 </head>
 
-<body onload="initializeMap()">
-	<input type="file" id="files" name="files[]" multiple onclick="handleFileSelect(event)"/>
-	<div id="list"></div>
-	<div id="googleMap" style="width:500px;height:380px;"></div>
-	<div id="tweets"></div>
+<body onload="init()">
+	<input type="file" id="files" name="files[]" multiple />
+	<input type="button" id="reset" value="Reset" name="resetButton" style="margin-left:15px" />
+	<br>
+	<output id="list"></output>
+	
+	<div id="googleMap" style="width:500px;height:380px;float:right;"></div>
+	<div id="tweets" style="display:inline-block;"></div>
 </body>
 
 </html>
