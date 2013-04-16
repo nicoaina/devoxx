@@ -4,16 +4,18 @@
 
 <html>
 <head>
-<script type="text/javascript" src="devoxx.js"></script>
-<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDY0kkJiTPVd2U7aTOAwhc9ySH6oHxOIYM&sensor=false">
-</script>
+
+<!--script type="text/javascript" src="scripts/devoxx.js"></script-->
+<!-- Load the script "scripts/main.js" as our entry point -->
+<script data-main="scripts/main" src="scripts/require-jquery.js"></script>
+<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDY0kkJiTPVd2U7aTOAwhc9ySH6oHxOIYM&sensor=false"></script>
 
 <meta http-equiv="content-type" content="text/html" charset=utf-8" />
 
 <title>Summup!</title>
 </head>
 
-<body onload="init()">
+<body>
 	<input type="file" id="files" name="files[]" multiple />
 	<input type="button" id="reset" value="Reset" name="resetButton" style="margin-left:15px" />
 	<br>
