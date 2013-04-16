@@ -1,7 +1,7 @@
-require(["devoxx"], function(Devoxx) {
+require(["jquery"], function($) {
     //the devoxx.js plugins have been loaded.
     $(function() {
-        console.log('jquery and devoxx loaded...');
+        console.log('jquery loaded...');
     });
 });
 
@@ -9,7 +9,6 @@ require(["devoxx"], function($, devoxx) {
     //the devoxx.js plugins have been loaded.
     $(function() {
         console.log('devoxx loaded...');
-		devoxx.init();
     });
 });
 
