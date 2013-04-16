@@ -1,0 +1,12 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN"
+   "http://www.w3.org/TR/html4/frameset.dtd">
+<html>
+<head>
+</head>
+
+<frameset border="0" frameborder="no" framespacing="0" rows="70,*">
+  <frame name="message" noresize scrolling="no" src="message.html">
+  <frame name="deveryloc" id="deveryloc" scrolling="no" src="deveryloc.html">
+</frameset>
+
+</html>

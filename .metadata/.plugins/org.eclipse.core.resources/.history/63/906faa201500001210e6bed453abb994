@@ -1,0 +1,171 @@
+	var listeBoitierSansAlerte = new Array();
+	var listeBoitierEnAlerte = new Array();
+	var listeBoitierPEC = new Array();
+	var listeTypeAlertes  = new Array();
+	var listeSeverite  = new Array();
+	var listeOperateur  = new Array();
+	var listeIlya = new Array();
+	var listeAlerte1 = new Array();
+	var listeAlerte2 = new Array();
+	var listeAlerte3 = new Array();
+	var listeAlerte4 = new Array();
+	var listeAlerte5 = new Array();
+	
+	var triggerAlertPending = false; 
+
+	function Ilya(ilyaDeclenchement, ilyaPEC) {
+		this.ilyaDeclenchement = ilyaDeclenchement;
+		this.ilyaPEC = ilyaPEC;
+	}
+	
+	function TypeAlerte(type) {
+		this.type = type;
+	}
+
+	function Severite(indice, cssClass) {
+		this.indice = indice;
+		this.cssClass = cssClass;
+	}
+
+	function Alerte(nom, type, date, severite) {
+		this.nom = nom;
+		this.type = type;
+		this.date = date;
+		this.severite = severite;
+	}
+
+	function BoitierSansAlerte (nom, mid, picto) {
+		this.nom = nom;
+		this.mid = mid;	
+		this.picto = picto;
+	}
+	
+	function BoitierEnAlerte (nom, mid, alerteListe, picto, operateur, ilya) {
+		this.nom = nom;
+		this.mid = mid;	
+		this.alerteListe = triAlerteListe(alerteListe);
+		this.picto = picto;
+		this.alerteLaPlusGrave = this.alerteListe[0];
+		this.operateur = operateur;
+		this.ilya = ilya;
+	}
+	
+	function BoitierPEC (nom, mid, alerteListe, ilya, picto, operateur) {
+		this.nom = nom;
+		this.mid = mid;	
+		this.alerteListe = alerteListe;
+		this.ilya = ilya;
+		this.picto = picto;
+		this.operateur = operateur;
+		this.alerteLaPlusGrave = this.alerteListe[0];
+	}
+	
+	function Operateur(operateur) {
+		this.operateur = operateur;
+	}
+	
+		listeTypeAlertes[0] = new TypeAlerte("Perte de connexion");
+		listeTypeAlertes[1] = new TypeAlerte("Batterie faible");
+		listeTypeAlertes[2] = new TypeAlerte("Arr&ecirc;t");
+		listeTypeAlertes[3] = new TypeAlerte("Coupure contact");
+		listeTypeAlertes[4] = new TypeAlerte("D&eacute;placement");
+		listeTypeAlertes[5] = new TypeAlerte("Lieu: p&eacute;n&eacute;trer une zone");
+		listeTypeAlertes[6] = new TypeAlerte("Lieu: sortir d'une zone");
+		listeTypeAlertes[7] = new TypeAlerte("Arr&ecirc;t non d&eacute;sir&eacute;");
+		listeTypeAlertes[8] = new TypeAlerte("Lieu: p&eacute;n&eacute;trer une ZOI");
+		listeTypeAlertes[9] = new TypeAlerte("Parcours: hors d'un corridor");
+		listeTypeAlertes[10] = new TypeAlerte("Connexion au r&eacute;seau");
+	
+		listeSeverite[0] = new Severite(0, "Rouge");
+		listeSeverite[1] = new Severite(1, "Orange");
+		listeSeverite[2] = new Severite(2, "Jaune");
+
+		listeOperateur[0] = new Operateur("Op&eacute;rateur Jean");
+		listeOperateur[1] = new Operateur("Op&eacute;rateur Jacques");
+		listeOperateur[2] = new Operateur("Op&eacute;rateur Gilles");
+		listeOperateur[3] = new Operateur("Op&eacute;rateur Jules");
+	
+		listeIlya[0] = new Ilya("1 min 04 sec", "1 min 01 sec");
+		listeIlya[1] = new Ilya("1 min 27 sec", "1 min 14 sec");
+		listeIlya[2] = new Ilya("1 min 54 sec", "1 min 32 sec");
+		listeIlya[3] = new Ilya("1 min 34 sec", "1 min 20 sec");
+		listeIlya[4] = new Ilya("1 min 18 sec", "1 min 04 sec");
+		listeIlya[5] = new Ilya("1 min 44 sec", "1 min 02 sec");
+		listeIlya[6] = new Ilya("0 min 34 sec", "0 min 26 sec");
+		listeIlya[7] = new Ilya("0 min 15 sec", "0 min 10 sec");
+		listeIlya[8] = new Ilya("0 min 28 sec", "0 min 13 sec");
+		listeIlya[9] = new Ilya("0 min 53 sec", "0 min 41 sec");
+		
+		listeBoitierSansAlerte[0] = new BoitierSansAlerte("twig 01", "33612345678", "./img/boat_red.png");
+		listeBoitierSansAlerte[1] = new BoitierSansAlerte("gh1202 01", "33611223344", "./img/boat_green.png");
+		listeBoitierSansAlerte[2] = new BoitierSansAlerte("skywave 01", "33611335577", "./img/box_pink.png");
+		listeBoitierSansAlerte[3] = new BoitierSansAlerte("sonim xp3 01", "33618765432", "./img/train_pink.png");
+		listeBoitierSansAlerte[4] = new BoitierSansAlerte("fm2200 01", "336100110022", "./img/boat_blue.png");
+		listeBoitierSansAlerte[5] = new BoitierSansAlerte("silex 01", "33612345666", "./img/boat_red.png");
+		listeBoitierSansAlerte[6] = new BoitierSansAlerte("ns100 01", "336123455555", "./img/box_blue.png");
+		listeBoitierSansAlerte[7] = new BoitierSansAlerte("ns200 01", "33612344444", "./img/box_yellow.png");
+		listeBoitierSansAlerte[8] = new BoitierSansAlerte("tracker 01", "33612333333", "./img/jetski_green.png");
+		listeBoitierSansAlerte[9] = new BoitierSansAlerte("tomtom 01", "33612222222", "./img/plane_bluelight.png");
+		listeBoitierSansAlerte[10] = new BoitierSansAlerte("twig 02", "33611111111", "./img/boat_red.png");
+		listeBoitierSansAlerte[11] = new BoitierSansAlerte("twig 03", "33612121212", "./img/boat_green.png");
+		listeBoitierSansAlerte[12] = new BoitierSansAlerte("sonim xp3 test", "33613131313", "./img/plane_green.png");
+		
+		/****
+		listeAlerte1[0] = new Alerte("Mon alerte programm&eacute;e 01", listeTypeAlertes[0], new Date(2012, 4, 12, 13, 45, 28), listeSeverite[1]);
+		listeAlerte1[1] = new Alerte("Mon alerte programm&eacute;e 02", listeTypeAlertes[7], new Date(2012, 4, 12, 13, 52, 15), listeSeverite[0]);
+		listeAlerte1[2] = new Alerte("Mon alerte programm&eacute;e 03", listeTypeAlertes[4], new Date(2012, 4, 12, 13, 55, 7), listeSeverite[2]);
+		listeBoitierEnAlerte[0] = new BoitierEnAlerte("twig 04", "33122446688", listeAlerte1, "./img/truck_green.png", "", listeIlya[2]);
+		
+		listeAlerte2[0] = new Alerte("Mon alerte programm&eacute;e 05", listeTypeAlertes[1], new Date(2012, 4, 12, 13, 47, 20), listeSeverite[2]);
+		listeAlerte2[1] = new Alerte("Mon alerte programm&eacute;e 06", listeTypeAlertes[3], new Date(2012, 4, 12, 13, 48, 16), listeSeverite[1]);		
+		listeBoitierEnAlerte[1] = new BoitierEnAlerte("tomtom 02", "33188776655", listeAlerte2, "./img/train_pink.png", "", listeIlya[4]);
+		
+		listeAlerte3[0] = new Alerte("Mon alerte programm&eacute;e 07", listeTypeAlertes[9], new Date(2012, 4, 12, 12, 13, 33), listeSeverite[2]);
+		listeBoitierEnAlerte[2] = new BoitierEnAlerte("skywave 02", "33133223322", listeAlerte3, "./img/trailer_red.png", "", listeIlya[5]);
+		/****/
+		
+		/****************
+		listeAlerte4[0] = new Alerte("Mon alerte programm&eacute;e 08", listeTypeAlertes[5], new Date(2012, 4, 12, 13, 40, 5), listeSeverite[1]);
+		listeBoitierPEC[0] = new BoitierPEC("twig 05", "33177553311", listeAlerte4, listeIlya[5], "./img/tractor_blue.png", listeOperateur[0].operateur);
+		
+		listeAlerte5[0] = new Alerte("Mon alerte programm&eacute;e 09", listeTypeAlertes[6], new Date(2012, 4, 12, 13, 38, 25), listeSeverite[1]);
+		listeAlerte5[1] = new Alerte("Mon alerte programm&eacute;e 10", listeTypeAlertes[8], new Date(2012, 4, 12, 13, 39, 22), listeSeverite[0]);
+		listeBoitierPEC[1] = new BoitierPEC("tracker02", "33133445533", listeAlerte5, listeIlya[3], "./img/taxi_green.png", listeOperateur[2].operateur);	
+		/****************/
+		
+		
+		function triListeBSA() {
+			listeBoitierSansAlerte.sort(function (a,b){
+				if (a.nom < b.nom) return -1;
+				if (a.nom > b.nom) return 1;
+				return 0;
+			});
+		}
+		
+		function triListeBEA() {
+			listeBoitierEnAlerte.sort(function (a,b){
+				if (a.alerteLaPlusGrave.severite.indice < b.alerteLaPlusGrave.severite.indice) return -1;
+				if (a.alerteLaPlusGrave.severite.indice > b.alerteLaPlusGrave.severite.indice) return 1;
+				return 0;
+			});
+		}
+
+		function triListeBPEC() {
+			listeBoitierPEC.sort(function (a,b){
+				if (a.alerteLaPlusGrave.severite.indice < b.alerteLaPlusGrave.severite.indice) return -1;
+				if (a.alerteLaPlusGrave.severite.indice > b.alerteLaPlusGrave.severite.indice) return 1;
+				return 0;
+			});
+		}
+
+		function triAlerteListe(alerteListe) {
+			alerteListe.sort(function (a,b){
+				if (a.severite.indice < b.severite.indice) return -1;
+				if (a.severite.indice > b.severite.indice) return 1;
+				if (a.date < b.date) return -1;
+				if (a.date > b.date) return 1;
+				return 0;
+			});
+			return alerteListe;
+		}
+		

@@ -1,0 +1,125 @@
+/**
+ * Fonctions appel�es uniquement depuis message.html
+ */
+
+
+
+/**
+ * triggerAlertPending d�clar� dans init.js
+ */
+function triggerAlertFromMessage() {
+	if (triggerAlertPending == true && listeBoitierSansAlerte.length > 0) {
+		
+		boitierId = getAleatoire(listeBoitierSansAlerte.length);
+		bsa = listeBoitierSansAlerte[boitierId];
+		
+		typeAlerteId = getAleatoire(listeTypeAlertes.length);
+		typeAlerte = listeTypeAlertes[typeAlerteId];
+
+		severiteId = getAleatoire(listeSeverite.length);
+		severite = listeSeverite[severiteId];
+
+		nouvelleNotif = new Notication(boitierId, bsa.nom, typeAlerteId, typeAlerte, severiteId, severite);
+		
+		var nbAlerts = $("#nbAlertsId").val();
+
+		nbAlerts++; 
+		$("#nbAlertsId").val(nbAlerts);
+		//alert(' 1 nbAlerts=' + nbAlerts);
+		
+		var allAlerts = $("#allAlertsId").val();
+		//alert('allAlerts=' + allAlerts);
+		$("#allAlertsId").val(allAlerts + "#start#" + nbAlerts + "#" + boitierId + "," + typeAlerteId + "," + severiteId + "#end#" + nbAlerts + "#"); 
+		listeNotifications[listeNotifications.length] = nouvelleNotif;
+		afficheNotification(nouvelleNotif);
+
+		supprimeBoitierDuTableauDesBoitierSansAlerteDeveryloc(boitierId);	
+		// var tailleTest = test.length;
+		// alea = getAleatoire(500);
+		//alert('tailleTest=' + tailleTest + " alea=" + alea);
+		// test[tailleTest] = alea;
+		
+		// a remettre
+		setTimeout("triggerAlertFromMessage()", 4 * 1000);
+	}
+}
+
+/*
+function afficheListeNotifications() {
+	$("#listeNotifications").empty();
+	for (var i = 0; i < listeNotifications.length; i++) {
+		afficheNotification(listeNotifications[i]);
+	}	
+
+}
+*/
+
+/**
+ * Pour chaque notification, ajoute au dom dans le div "listeNotifications" :
+ * 
+ */
+function afficheNotification(notif) {
+
+	//alert('notif.severite.cssClass=' + notif.severite.cssClass);
+	var divCellule = $("<p>Mon texte coco</p><div/>",{
+		id:notif.idBoitier,
+		class:"notification" + notif.severite.cssClass,
+		html:notif.typeAlerte.type + " pour le mobile " + notif.nomBoitier,
+		click:function(){
+			openBrowserTab(notif);
+			$("#clickedBoitierName").val(notif.nomBoitier);
+			$("#" + notif.idBoitier).remove();
+		}
+	});
+
+/*	var divAlerte = $("<div/>",{
+		html:notif.typeAlerte.type + " pour le mobile " + notif.nomBoitier,
+		class:"notification" + notif.severite.cssClass,
+		style:"width:100%; text-align:left"
+	});
+
+	divCellule.append(divAlerte);
+	*/
+	//divCellule.appendTo("#listeNotifications");
+	divCellule.hide();
+	$("#listeNotifications").prepend(divCellule);
+	divCellule.slideDown(700);
+
+}
+
+/**
+ * Ouvre un onglet navigateur appel� "locsight" s'il n'existe pas encore, sinon met le focus sur l'onglet navigateur existant.
+ * 
+ * Copie les id de boitier, d'alerte et de severite dans des champx hidden du formulaire de message.html 
+ */
+function openBrowserTab(notif)
+{
+	$("#boitierId").val(notif.idBoitier);
+	$("#severiteId").val(notif.idSeverite);
+	$("#typeAlerteId").val(notif.idTypeAlerte);
+
+	if (!locsightWindow) {
+		locsightWindow = window.open("main.html","locsight");	
+	} else {
+		locsightWindow.focus();
+	}
+}
+
+
+
+function triggerAlerttoto() {
+	if (triggerAlertPending == true && listeBoitierSansAlerte.length > 0) {
+		boitierId = getAleatoire(listeBoitierSansAlerte.length);
+		severiteId = getAleatoire(listeSeverite.length);
+		typeAlerteId = getAleatoire(listeTypeAlertes.length);
+		$("#boitierId").val(boitierId);
+		$("#severiteId").val(severiteId);
+		$("#typeAlerteId").val(typeAlerteId);
+		supprimeBoitierDuTableauDesBoitierSansAlerteDeveryloc(alea);
+		setTimeout("triggerAlert()", 4 * 1000);
+	}
+}
+
+
+
+

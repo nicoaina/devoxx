@@ -1,0 +1,3 @@
+var reader = new FileReader();
+
+var json = '{"result":true,"count":1}', obj = JSON.parse(json);

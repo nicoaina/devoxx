@@ -1,0 +1,390 @@
+
+	
+	function triggerAlert() {
+		if (triggerAlertPending == true && listeBoitierSansAlerte.length > 0) {
+			alea = getAleatoire(listeBoitierSansAlerte.length);
+			bsa = listeBoitierSansAlerte[alea];
+			
+			var boitierEnAlerte = genereNouveauBEA(bsa);
+
+			supprimeElementDansListeBoitierSansAlerte(alea);
+			$("#" + bsa.mid).remove();			
+
+			ajouterElementDansListeBoitierEnAlerte(boitierEnAlerte);
+			refreshFond_onglet_locsight();
+			clignotement_onglet_locsight();
+			setTimeout("triggerAlert()", 4 * 1000);
+		}
+	}
+
+	function stopTriggerAlert() {
+		triggerAlertPending = false;
+	}
+	
+	/**
+	 * Genere un nouveau boitier en alerte a partir d'un boitier sans alerte.
+	 * Le type d'alerte et la severite sont generes aleatoirement pour chacune des alertes du boitier.
+	 * Le nombre d'alertes du boitier varie de 1 à 5.
+	 * 
+	 * @param bsa
+	 */
+	function genereNouveauBEA(bsa) {
+		nbAlertes = getAleatoire(3) + 1; // on rajoute 1 au cas ou le nb aleatoire = 0
+		lstAlertes = new Array(nbAlertes);
+		
+		for (var i = 0; i < nbAlertes; i++) {
+			aleaTypeAlerte = getAleatoire(listeTypeAlertes.length);
+			typeAlerte = listeTypeAlertes[aleaTypeAlerte];
+			
+			aleaSeverite = getAleatoire(listeSeverite.length);
+			severite = listeSeverite[aleaSeverite];
+			
+			nomAlerte = "Mon alerte programm&eacute;e " + getAleatoire(1000);
+			
+			dateAlerte = new Date();
+			dateAlerte.setHours(dateAlerte.getHours - 1);
+			dateAlerte.setMinutes(getAleatoire(60));
+			nouvelleAlerte = new Alerte(nomAlerte, typeAlerte, dateAlerte, severite);
+			lstAlertes[i] = nouvelleAlerte;
+		}
+
+		aleaIlya = getAleatoire(listeIlya.length);
+		ilya = listeIlya[aleaIlya];
+		return new BoitierEnAlerte(bsa.nom, bsa.mid, lstAlertes, bsa.picto, "", ilya);
+	}
+	
+	/**
+	 * Renvoie un nombre entier aleatoire compris dans l'intervalle [0, max[
+	 */
+	function getAleatoire(max) {
+		var alea = Math.random();
+		alea = alea * max;
+		return Math.floor(alea);
+	}
+	
+	/**
+	 *
+	 */
+	 function getBoitierEA(mid) {
+		for ( var i = 0; i < listeBoitierEnAlerte.length; i++ ) {
+			if (listeBoitierEnAlerte[i].mid == mid) {
+				return listeBoitierEnAlerte[i];
+			}
+		}
+		alert('attention boitier en alerte mid=' + mid + 'non trouvÃ©');
+	 }
+	
+	/**
+	 *
+	 */
+	function supprimeElementDansListeBoitierSansAlerte(index) {
+		var tmpArray = new Array();
+		
+		for ( var i = 0; i < listeBoitierSansAlerte.length; i++ ) {
+			if ( i != index ) {
+				tmpArray[tmpArray.length] = listeBoitierSansAlerte[i];
+			}
+		}
+		listeBoitierSansAlerte = tmpArray;
+		$("#nbBSA").text('(' + listeBoitierSansAlerte.length + ')');
+	}
+	
+	/**
+	 * 
+	 * @param bsa
+	 * @param alerte
+	 * @param sev
+	 */
+	function ajouterElementDansListeBoitierEnAlerte(bea) {
+		listeBoitierEnAlerte[listeBoitierEnAlerte.length] = bea;
+		afficheListeBEA();
+	}
+	
+
+	function supprimeElementDansListeBoitierEnAlerte(mid) {
+		var tmpArray = new Array();
+		//alert('avant listeBoitierEnAlerte.length=' + listeBoitierEnAlerte.length);
+		
+		for ( var i = 0; i < listeBoitierEnAlerte.length; i++ ) {
+			if ( mid !=  listeBoitierEnAlerte[i].mid) {
+				tmpArray[tmpArray.length] = listeBoitierEnAlerte[i];
+			}
+		}
+		listeBoitierEnAlerte = tmpArray;
+		$("#" + mid).remove();
+		refreshNB_BEA();
+		refreshFond_onglet_locsight();
+	}
+	
+	function supprimeElementDansListeBoitierPEC(mid) {
+		var tmpArray = new Array();
+		
+		for ( var i = 0; i < listeBoitierPEC.length; i++ ) {
+			if ( mid !=  listeBoitierPEC[i].mid) {
+				tmpArray[tmpArray.length] = listeBoitierPEC[i];
+			}
+		}
+		listeBoitierPEC = tmpArray;
+		$("#" + mid).remove();
+		$("#nbBPEC").text('(' + listeBoitierPEC.length + ')');
+	}
+
+	
+	/**
+	 *
+	 */
+	function ajouterElementDansListeAlertePEC(bea) {
+		alea = getAleatoire(listeOperateur.length);
+		oper = listeOperateur[alea];
+		
+		bpec = new BoitierPEC(bea.nom, bea.mid, bea.alerteListe, bea.ilya, bea.picto, oper.operateur);
+		bea.operateur = oper; // tres important
+		
+		listeBoitierPEC[listeBoitierPEC.length] = bpec;
+		afficheListeBPEC();
+		$("#nbBPEC").text('(' + listeBoitierPEC.length + ')');
+	}
+
+	function afficheListeBSA() {
+		triListeBSA();
+		$("#liste_bsa").empty();
+		for (var i = 0; i < listeBoitierSansAlerte.length; i++) {
+			afficheBSA(listeBoitierSansAlerte[i]);
+		}
+		
+
+	}
+
+	/**
+	 * BEA = boitier en alerte
+	 */
+	function afficheListeBEA() {
+		triListeBEA();
+		$("#liste2").empty();
+		for (var i = 0; i < listeBoitierEnAlerte.length; i++) {
+			afficheBEA(listeBoitierEnAlerte[i]);
+		}
+		refreshNB_BEA();
+	}
+	
+	/**
+	 * BPEC = boitier pris en compte
+	 */
+	function afficheListeBPEC() {
+		triListeBPEC();
+		$("#liste3").empty();
+		for (var i = 0; i < listeBoitierPEC.length; i++) {
+			afficheBPEC(listeBoitierPEC[i]);
+		}	
+	}
+	
+		
+	/**
+	 * Pour chaque boitier sans alerte, ajoute au dom dans le div "liste_bsa" :
+	 * 
+	 *	<div class="cellule">
+	 *		<img src="./mobileBleu.png" style="vertical-align:middle"/>
+	 *		<span style="line-height:2em;">
+	 *			<span class="boitierSansAlerte">mobile AAA</span>
+	 *		</span>
+	 *	</div>
+	 */
+	function afficheBSA(bsa) {
+		
+		var divCellule = $("<div/>",{
+			id:bsa.mid,
+			class:"cellule"
+		});
+
+		var image = $("<img/>",{
+			src:bsa.picto,
+			style:"vertical-align:middle"
+		});		
+
+
+		var span2 = $("<span/>",{
+			html:bsa.nom,
+			click:function(){
+				ouvrirNouvelOnglet(bsa, "ro");
+			},
+			class:"boitierSansAlerte"
+		});
+		span2.css('cursor','pointer');
+				
+		var span1 = $("<span/>",{
+			style:"line-height:2em;"
+		});		
+				
+		span1.append(span2);
+		
+		divCellule.append(image, span1);
+		divCellule.appendTo("#liste_bsa");	
+	}
+	
+	
+	/**
+	 * Pour chaque boitier en alerte, ajoute au dom dans le div "liste2" :
+	 * 
+	 *	<div class="alerteOrange">
+	 *		<div class="divMobile">
+	 *			<span class="mobileOrange">Mobile fictif 1</span>
+	 *		</div>
+	 * 		<img src="./bellOrange.png" style="vertical-align:middle"/>
+	 *		<span style="line-height:2em;">
+	 *			<span class="typeAlerteOrange">Se rapprocher d'un autre mobile</span>
+	 *			<span class="ilyaOrange">2 min 04 sec</span>
+	 *		</span>				
+	 *	</div>
+	 */
+	function afficheBEA(bea) {
+	
+		var divCellule = $("<div/>",{
+			id:bea.mid,
+			class:"alerte" + bea.alerteLaPlusGrave.severite.cssClass
+		});
+
+		var image = $("<img/>",{
+			src:bea.picto,
+			style:"vertical-align:middle"
+		});		
+
+		var ancreNomBoitier = $("<a/>",{
+			id:"nomBoitier" + bea.mid,
+			html:bea.nom,
+			click:function(){
+				ouvrirNouvelOnglet(bea, "visu");
+			},
+			class:"boitierEnAlerte",
+			style:"border:1px solid; padding:1px;"
+		});
+		ancreNomBoitier.hover(function(){
+			afficheInfoBulle(ancreNomBoitier, "Visualier");
+		});
+		//ancreNomBoitier.css('cursor','pointer');
+		
+		var divIlyaDeclenchement = $("<div/>",{
+			html:"D&eacute;clench&eacute;e il y a " + bea.ilya.ilyaDeclenchement,
+			class:"typeAlerte" + bea.alerteLaPlusGrave.severite.cssClass,
+			style:"width:100%; text-align:right"
+		});
+
+		var divImageNomBoitier = $("<div/>");
+		divImageNomBoitier.append(image, ancreNomBoitier);
+		
+		var divIlyaPEC = $("<div/>",{
+			html:"Pris en compte par " + bea.operateur.operateur + " il y a " + bea.ilya.ilyaPEC,
+			class:"typeAlerte" + bea.alerteLaPlusGrave.severite.cssClass,
+			style:"width:100%; text-align:right"
+		});
+		
+		var labelNomAlerte = "";
+		if (bea.alerteListe.length > 1) {
+			labelNomAlerte = "(" + bea.alerteListe.length + " alertes)";
+		} else {
+			labelNomAlerte = bea.alerteLaPlusGrave.nom + "(" + bea.alerteLaPlusGrave.type.type + ")"; 
+		}
+		
+		var spanAlerteType = $("<span/>",{
+			html:labelNomAlerte,
+			class:"typeAlerte" + bea.alerteLaPlusGrave.severite.cssClass
+		});		
+
+		var spanTraiter = $("<span/>",{
+			html:"Traiter",
+			click:function(){				
+				supprimeElementDansListeBoitierEnAlerte(bea.mid);
+				ajouterElementDansListeAlertePEC(bea);
+				ouvrirNouvelOnglet(bea, "pec");
+			},
+			class:"boitierEnAlerte",
+			style:"border:1px solid; padding:1px; float:right; "
+		});
+		spanTraiter.css('cursor','pointer');
+				
+		var divAlerteTypeTraiter = $("<div/>",{
+			style:"width:100%"
+		});		
+
+		divAlerteTypeTraiter.append(spanAlerteType, spanTraiter);
+		
+		if (bea.operateur !="") {
+			divCellule.append(divImageNomBoitier, divIlyaDeclenchement, divIlyaPEC, divAlerteTypeTraiter);
+		} else {
+			divCellule.append(divImageNomBoitier, divIlyaDeclenchement, divAlerteTypeTraiter);			
+		}
+
+		divCellule.appendTo("#liste2");	
+	}
+	
+	/**
+	 * Pour chaque boitier pris en compte, ajoute au dom dans le div "liste3" :
+	 * 
+	 */
+	function afficheBPEC(bpec) {
+	
+		var divCellule = $("<div/>",{
+			id:bpec.mid,
+			class:"alerte" + bpec.alerteLaPlusGrave.severite.cssClass
+		});
+
+		var image = $("<img/>",{
+			src:bpec.picto,
+			style:"vertical-align:middle"
+		});		
+
+
+		var spanNomBoitier = $("<span/>",{
+			html:bpec.nom,
+			class:"boitierPEC",
+			click:function(){
+				ouvrirOngletDejaCree(bpec);
+			},
+			style:"border:1px solid; padding:1px;"
+		});
+		spanNomBoitier.css('cursor','pointer');
+				
+		var divImageNomBoitier = $("<div/>");
+		divImageNomBoitier.append(image, spanNomBoitier);	
+		
+		var divIlyaPEC = $("<div/>",{
+			html:"Pris en compte il y a " + bpec.ilya.ilyaPEC,
+			class:"typeAlerte" + bpec.alerteLaPlusGrave.severite.cssClass,
+			style:"width:100%; text-align:right"
+		});
+
+		
+		var labelNomAlerte = "";
+		
+		if (bpec.alerteListe.length > 1) {
+			labelNomAlerte = "(" + bpec.alerteListe.length + " alertes)";
+		} else {
+			labelNomAlerte = bpec.alerteLaPlusGrave.nom + " (" + bpec.alerteLaPlusGrave.type.type + ")"; 
+		}
+
+		var spanAlerteType = $("<span/>",{
+			html:labelNomAlerte,
+			class:"typeAlerte" + bpec.alerteLaPlusGrave.severite.cssClass
+		});		
+
+		var spanOperateur = $("<span/>",{
+			html:bpec.operateur,
+			class:"boitierEnAlerte",
+			style:"float:right; "
+		});
+
+
+		
+		var divAlerteTypeOperateur = $("<div/>",{
+			style:"width:100%"
+		});		
+
+		divAlerteTypeOperateur.append(spanAlerteType, spanOperateur);
+		
+		divCellule.append(divImageNomBoitier, divIlyaPEC, divAlerteTypeOperateur);
+		divCellule.appendTo("#liste3");	
+	}
+	
+	function refreshNB_BEA() {
+		$("#nbBEA").text('(' + listeBoitierEnAlerte.length + ')');
+		$("#nbBEA_onglet").text('(' + listeBoitierEnAlerte.length + ')');
+	}
