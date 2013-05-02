@@ -5,11 +5,21 @@
 <html>
 <head>
 
-<!--script type="text/javascript" src="scripts/devoxx.js"></script-->
-<!-- Load the script "scripts/main.js" as our entry point -->
-<script data-main="scripts/main" src="scripts/require-jquery.js"></script>
-<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDY0kkJiTPVd2U7aTOAwhc9ySH6oHxOIYM&sensor=false"></script>
+<!-- script type="text/javascript" src="scripts/devoxx.js"></script>
+<script type="text/javascript" src="scripts/tfidf.js"></script-->
 
+<!-- Load the script "scripts/main.js" as our entry point-->
+<script data-main="scripts/main" src="scripts/require-jquery.js"></script>
+<!-- script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDY0kkJiTPVd2U7aTOAwhc9ySH6oHxOIYM&sensor=false"></script-->
+<!-- <script type="text/javascript" src="scripts/async.js"></script>
+<script type="text/javascript">
+
+    async.map(data, asyncProcess, function(err, results){
+        alert(results);
+    });
+
+</script>
+ -->
 <meta http-equiv="content-type" content="text/html" charset=utf-8" />
 
 <title>Summup!</title>
@@ -18,9 +28,11 @@
 <body>
 	<input type="file" id="files" name="files[]" multiple />
 	<input type="button" id="reset" value="Reset" name="resetButton" style="margin-left:15px" />
+	<input type="button" id="tfidf" value="TFIDF" name="tfidfButton" disabled style="margin-left:15px" />
 	<br>
 	<output id="list"></output>
 	
+	<div id="terms"></div> 	
 	<div id="googleMap" style="width:500px;height:380px;float:right;"></div>
 	<div id="tweets" style="display:inline-block;"></div>
 </body>
